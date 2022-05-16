@@ -4,5 +4,5 @@
 
 .diamond {
     padding-top: 2rem;
-    background-image: radial-gradient(grey, black)
+    background-image: radial-gradient(rgb(92, 90, 90), black)
 }
