@@ -8,7 +8,7 @@ const Box = () => {
     const colorMap = useLoader(TextureLoader, texture);
 
     return (
-        <div style={{ textAlign: "center", height: "500px" }}>
+        <div style={{ textAlign: "center", height: "700px" }}>
             <Canvas>
                 <OrbitControls enableZoom={false} />
                 <ambientLight intensity={0.5} />
