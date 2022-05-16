@@ -5,7 +5,7 @@ import { OrbitControls } from "@react-three/drei";
 
 const Test = () => {
     return (
-        <div style={{textAlign:"center"}}>
+        <div style={{textAlign:"center", height: "500px"}}>
             <Canvas className={styles.canvas}>
                 <OrbitControls enableZoom={false} />
                 <ambientLight intensity={0.5} />
