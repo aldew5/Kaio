@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
-import Test from "../components/Test";
+import Box from "../components/Box";
 import Map from "../components/Map";
 import styles from "../styles/Landing.module.css";
 
@@ -8,7 +8,7 @@ const Landing = () => {
         <div className={styles.main}>
             <NavBar />
             <div className={styles.diamond}>
-                <Test />
+                <Box />
             </div>
             
             <div className={styles.map}>
