@@ -30,10 +30,9 @@ const Map = () => {
                 <Padding /> :
             </div>
             <div style={{ marginTop: "-22px" }}>
-                <img src={Boat} alt="not found" style={{ opacity: `${scroll}` }} />
+                <img src={Boat} alt="not found" style={{ opacity: `${scroll * 1.6}`, width: "1440px" }} />
             </div>
         </div>
     )
 }
-
 export default Map;
