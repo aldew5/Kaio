@@ -12,26 +12,28 @@ import GoldLogo from "../assets/Gold.png";
 
 const NavBar = () => {
     return (
-        <Box component="div" sx={{ flexGrow: 1 }}>
-            <AppBar position="static" style={{ background: '#000000' }}>
-                <Toolbar>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 2 }}>
-                    </IconButton>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1, marginLeft: "40rem" }} >
-                        <img src={GoldLogo} alt="not found" style={{width: "90px"}}/>
-                    </Typography>
-                    <Button color="inherit" >CREW</Button>
-                    <Button color="inherit" >FAQ</Button>
-                    <Button color="inherit" className={styles.hub}><InstagramIcon/></Button>
-                    <Button color="inherit" ><TwitterIcon/></Button>
-                </Toolbar>
-            </AppBar>
-        </Box>
+        <div style={{ position: "sticky", top: "0px", zIndex: "50", opacity: "0.7" }}>
+            <Box component="div" sx={{ flexGrow: 1 }}>
+                <AppBar position="static" style={{ background: '#000000' }}>
+                    <Toolbar>
+                        <IconButton
+                            size="large"
+                            edge="start"
+                            color="inherit"
+                            aria-label="menu"
+                            sx={{ mr: 2 }}>
+                        </IconButton>
+                        <Typography variant="h6" component="div" sx={{ flexGrow: 1, marginLeft: "40rem" }} >
+                            <img src={GoldLogo} alt="not found" style={{ width: "90px" }} />
+                        </Typography>
+                        <Button color="inherit" >CREW</Button>
+                        <Button color="inherit" >FAQ</Button>
+                        <Button color="inherit" className={styles.hub}><InstagramIcon /></Button>
+                        <Button color="inherit" ><TwitterIcon /></Button>
+                    </Toolbar>
+                </AppBar>
+            </Box>
+        </div>
     );
 }
 

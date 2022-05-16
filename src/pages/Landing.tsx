@@ -7,7 +7,9 @@ import styles from "../styles/Landing.module.css";
 const Landing = () => {
     return (
         <div className={styles.main}>
+          
             <NavBar />
+  
             <div className={styles.diamond}>
                 <Box />
             </div>
