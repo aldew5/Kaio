@@ -11,7 +11,7 @@ const Landing = () => {
             <div className={styles.diamond}>
                 <Test />
             </div>
-            <div style={{paddingTop:"2rem", justifyContent:"center"}}>
+            <div className={styles.map}>
                 <Map />
             </div>
            

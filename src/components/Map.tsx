@@ -1,7 +1,32 @@
+import Boat from "../assets/Boat.png";
+import { useEffect, useState } from "react";
+
 const Map = () => {
+
+    const [scroll, setScroll] = useState<number>(0);
+
+    const handleScroll = () => {
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop
+
+        const height =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight;
+
+        setScroll(winScroll/height);
+        console.log("HERE", winScroll/height);
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+          window.removeEventListener('keyup', handleScroll);
+        };
+      });
+
     return (
-        <div style={{borderStyle:"solid", borderWidth:"2px", textAlign:"center", margin: "0 auto", width:"400px", height:"400px"}}>
-            Map here?
+        <div>
+            <img src={Boat} alt="not found" style={{opacity:`${scroll}`}}/>
         </div>
     )
 }
