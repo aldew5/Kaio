@@ -1,5 +1,6 @@
 import Boat from "../assets/Boat.png";
 import { useEffect, useState } from "react";
+import Padding from "./Padding";
 
 const Map = () => {
 
@@ -13,19 +14,24 @@ const Map = () => {
             document.documentElement.scrollHeight -
             document.documentElement.clientHeight;
 
-        setScroll(winScroll/height);
+        setScroll(winScroll / height);
     }
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
-          window.removeEventListener('keyup', handleScroll);
+            window.removeEventListener('keyup', handleScroll);
         };
-      });
+    });
 
     return (
         <div>
-            <img src={Boat} alt="not found" style={{opacity:`${scroll}`}}/>
+            <div>
+                <Padding /> :
+            </div>
+            <div style={{ marginTop: "-22px" }}>
+                <img src={Boat} alt="not found" style={{ opacity: `${scroll}` }} />
+            </div>
         </div>
     )
 }
