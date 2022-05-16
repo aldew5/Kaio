@@ -14,7 +14,6 @@ const Map = () => {
             document.documentElement.clientHeight;
 
         setScroll(winScroll/height);
-        console.log("HERE", winScroll/height);
     }
 
     useEffect(() => {

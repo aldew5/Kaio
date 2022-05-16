@@ -12,9 +12,6 @@ const Test = () => {
                 <directionalLight position={[-2, 5, 2]} intensity={1} />
                 <Box />
             </Canvas>
-            <div>
-                This will be the crystal
-            </div>
         </div>
     )
 }
