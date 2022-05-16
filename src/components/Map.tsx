@@ -1,6 +1,7 @@
 import Boat from "../assets/Boat.png";
 import { useEffect, useState } from "react";
-import Padding from "./Padding";
+import styles from "../styles/Map.module.css";
+
 
 const Map = () => {
 
@@ -25,11 +26,10 @@ const Map = () => {
     });
 
     return (
-        <div>
-            <div>
-                <Padding /> :
+        <div style={{ height: "660px" }}>
+            <div className={styles.padding}>
             </div>
-            <div style={{ marginTop: "-22px" }}>
+            <div>
                 <img src={Boat} alt="not found" style={{ opacity: `${scroll * 1.6}`, width: "1440px" }} />
             </div>
         </div>

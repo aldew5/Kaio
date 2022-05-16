@@ -23,10 +23,10 @@ const NavBar = () => {
                             aria-label="menu"
                             sx={{ mr: 2 }}>
                         </IconButton>
-                        <div style={{opacity:"1", marginLeft: "40rem"}}>
+                        <div style={{ opacity: "1", marginLeft: "40rem" }}>
                             <img src={GoldLogo} alt="not found" style={{ width: "90px" }} />
                         </div>
-                        <Button color="inherit" sx={{marginLeft:"25rem"}}>CREW</Button>
+                        <Button color="inherit" sx={{ marginLeft: "25rem" }}>CREW</Button>
                         <Button color="inherit" >FAQ</Button>
                         <Button color="inherit" ><InstagramIcon /></Button>
                         <Button color="inherit" ><TwitterIcon /></Button>
