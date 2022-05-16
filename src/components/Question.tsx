@@ -22,7 +22,7 @@ const Question = ({ question, response }: QuestionProps) => {
                 {question}
             </div>
             {(open) ?
-                <div style={{marginTop:"1rem"}}>
+                <div style={{ marginTop: "1rem" }}>
                     {response}
                 </div>
                 :
