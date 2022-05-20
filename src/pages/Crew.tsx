@@ -6,14 +6,15 @@ import styles from "../styles/Landing.module.css";
 
 const Crew = () => {
     return (
-        <div style={{ paddingTop: "2rem", textAlign: "center", paddingBottom: "2rem", backgroundColor: "white" }}>
+        <div style={{ textAlign: "center", paddingBottom: "2rem", backgroundColor: "#F0EAD6" }}>
             <NavBar />
             <div style={{ display: "block" }}>
                 <SideBar />
-                <div style={{textAlign:"left", marginLeft: "23rem"}}>
+                <div style={{textAlign:"left", justifyContent: "left", marginLeft: "120px", paddingTop: "40px"}}>
                     <Typography variant="h4" color="black">Crew</Typography>
+                    <div style={{width:"100px", height:"2px", marginLeft: "3px",  backgroundColor: "black"}}></div>
                 </div>
-                <div style={{ paddingTop: "2rem", display: "flex", justifyContent: "center" }}>
+                <div style={{ paddingTop: "2rem", display: "flex", marginLeft:"100px"}}>
                     <div style={{ display: "flex", float: "left", paddingLeft: "1rem" }}>
                         <Biography
                             text={"This is where your short biography will go"}

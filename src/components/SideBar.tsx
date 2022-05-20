@@ -1,7 +1,6 @@
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import { Icon, IconButton } from '@mui/material';
-import Toolbar from '@mui/material/Toolbar';
+import { IconButton } from '@mui/material';
 
 const SideBar = () => {
     return (
@@ -10,7 +9,6 @@ const SideBar = () => {
                 width: "6px", height: "200px", backgroundColor: "black",
                 zIndex: "100", marginLeft: "10px", marginBottom: "10px"
             }}>
-
             </div>
             <div style={{ marginLeft:"-5px" }}>
                 <IconButton>

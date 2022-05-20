@@ -16,12 +16,12 @@ const NavBar = () => {
             <Box component="div" sx={{ flexGrow: 1 }}>
                 <AppBar position="sticky" style={{ background: "transparent", boxShadow: "none" }}>
                     <Toolbar>
-                        <img src={Logo} alt="not found" style={{ width: "50px" }} />
                         <div style={{
                             paddingLeft: "20px",
                             paddingRight: "10px", paddingTop: "5px", paddingBottom: "5px"
                         }}>
-                            <img src={GoldLogo} alt="not found" style={{ width: "90px" }} />
+                            <img src={GoldLogo} alt="not found" style={{ width: "90px" }}
+                                onClick={() => { navigate("/") }} />
                         </div>
                         <Button style={{ borderRadius: 8, backgroundColor: "black" }}
                             variant='contained' sx={{ marginLeft: "62rem" }} onClick={() => { navigate("/crew") }}>
@@ -31,7 +31,10 @@ const NavBar = () => {
                             variant='contained' onClick={() => { navigate("/map") }}>
                             MAP
                         </Button>
-                        <Button style={{ borderRadius: 8, backgroundColor: "black", marginLeft: "15px" }} variant='contained' >FAQ</Button>
+                        <Button style={{ borderRadius: 8, backgroundColor: "black", marginLeft: "15px" }}
+                            variant='contained' onClick={() => { navigate("/faq") }}>
+                            FAQ
+                        </Button>
                     </Toolbar>
                 </AppBar>
             </Box>
