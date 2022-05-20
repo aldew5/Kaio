@@ -1,7 +1,7 @@
 .main {
     margin: auto;
     display: "flex";
-    background-color: rgb(238, 94, 94);
+    background-color: rgb(141, 45, 45);
 }
 
 .diamond {
@@ -10,9 +10,8 @@
     display: flex;
     float:"left";
     padding-left: 100px;
-    width: 1306px;
-    height: 725px;
-       
+    width: 1280px;
+    height: 725px; 
 }
 
 .map {
