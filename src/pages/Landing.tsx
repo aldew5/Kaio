@@ -1,8 +1,4 @@
 import NavBar from "../components/NavBar";
-import Box from "../components/Box";
-import Map from "../components/Map";
-import Crew from "./Crew";
-import FAQ from "../components/FAQ";
 import SideBar from "../components/SideBar";
 import styles from "../styles/Landing.module.css";
 
