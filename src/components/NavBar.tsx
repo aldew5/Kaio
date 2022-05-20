@@ -14,7 +14,8 @@ const NavBar = () => {
             <Box component="div" sx={{ flexGrow: 1 }}>
                 <AppBar position="sticky" style={{ background: "transparent", boxShadow: "none" }}>
                     <Toolbar>
-                        <div style={{ opacity: "1" }}>
+                        <div style={{ backgroundColor:"black", borderRadius:"5px", paddingLeft:"20px", 
+                    paddingRight:"20px", paddingTop: "5px", paddingBottom:"5px"}}>
                             <img src={GoldLogo} alt="not found" style={{ width: "90px" }} />
                         </div>
                         <Button style={{borderRadius: 8,backgroundColor:"black"}} variant='contained' sx={{ marginLeft: "62rem" }}>CREW</Button>

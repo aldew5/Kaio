@@ -1,20 +1,17 @@
 .main {
     margin: auto;
-    
     display: "flex";
+    background-color: rgb(238, 94, 94);
 }
 
 .diamond {
-    padding-top: 8rem;
-    margin-top: 4rem;
-    background-image: radial-gradient(rgb(92, 90, 90), black);
+    background-image: url("../assets/anime.jpeg");
     bottom: 150px;
     display: flex;
     float:"left";
     padding-left: 100px;
-    position: relative;
-    width: 1000px;
-    height: 700px;
+    width: 1306px;
+    height: 725px;
        
 }
 
