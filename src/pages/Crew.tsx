@@ -1,4 +1,4 @@
-import Biography from "./Biography";
+import Biography from "../components/Biography";
 import { Typography } from "@mui/material";
 
 const Crew = () => {
