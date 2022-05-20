@@ -5,7 +5,10 @@
 
 .diamond {
     padding-top: 2rem;
-    background-image: radial-gradient(rgb(92, 90, 90), black)
+    background-image: radial-gradient(rgb(92, 90, 90), black);
+    position: relative;
+    bottom: 150px;
+       
 }
 
 .map {

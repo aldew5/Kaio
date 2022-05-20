@@ -12,24 +12,18 @@ import GoldLogo from "../assets/Gold.png";
 
 const NavBar = () => {
     return (
-        <div style={{ position: "sticky", top: "0px", zIndex: "50", opacity: "0.7" }}>
+        <div style={{ position: "sticky", top: "0px", zIndex: "50", opacity: "1" }}>
             <Box component="div" sx={{ flexGrow: 1 }}>
-                <AppBar position="static" style={{ background: '#000000' }}>
+                <AppBar position="sticky" style={{ background: "transparent", boxShadow: "none" }}>
                     <Toolbar>
-                        <IconButton
-                            size="large"
-                            edge="start"
-                            color="inherit"
-                            aria-label="menu"
-                            sx={{ mr: 2 }}>
-                        </IconButton>
-                        <div style={{ opacity: "1", marginLeft: "40rem" }}>
+                        <div style={{ opacity: "1" }}>
                             <img src={GoldLogo} alt="not found" style={{ width: "90px" }} />
                         </div>
-                        <Button color="inherit" sx={{ marginLeft: "25rem" }}>CREW</Button>
-                        <Button color="inherit" >FAQ</Button>
-                        <Button color="inherit" ><InstagramIcon /></Button>
-                        <Button color="inherit" ><TwitterIcon /></Button>
+                       
+                        <Button style={{borderRadius: 8,backgroundColor:"black"}} variant='contained' sx={{ marginLeft: "62rem" }}>CREW</Button>
+                        <Button style={{borderRadius: 8,backgroundColor:"black", marginLeft: "15px"}} variant='contained' >FAQ</Button>
+                        <Button style={{borderRadius: 8,backgroundColor:"black", marginLeft: "15px"}} variant='contained' ><InstagramIcon /></Button>
+                        <Button style={{borderRadius: 8,backgroundColor:"black", marginLeft: "15px"}} variant='contained' ><TwitterIcon /></Button>
                     </Toolbar>
                 </AppBar>
             </Box>
