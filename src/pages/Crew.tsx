@@ -6,7 +6,7 @@ import styles from "../styles/Landing.module.css";
 
 const Crew = () => {
     return (
-        <div style={{ textAlign: "center", paddingBottom: "2rem", backgroundColor: "#F0EAD6" }}>
+        <div style={{ textAlign: "center", paddingBottom: "2rem", backgroundColor: "#FFB2B2" }}>
             <NavBar />
             <div style={{ display: "block" }}>
                 <SideBar />
