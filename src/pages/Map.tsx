@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
-import MapImage from "../assets/Map.jpg";
+import MapImage from "../assets/Mapnobg.png";
 
 
 const Map = () => {
@@ -10,8 +10,8 @@ const Map = () => {
                 <NavBar />
                 <div style={{ display: "block" }}>
                     <SideBar />
-                    <div>
-                        <img src={MapImage} alt={"not found"} />
+                    <div style={{ backgroundImage: "radial-gradient(grey, black)" }}>
+                        <img src={MapImage} alt={"not found"} style={{ width: "500px" }} />
                     </div>
                 </div>
             </div>

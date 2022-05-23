@@ -7,10 +7,10 @@ const Landing = () => {
         <div className={styles.main}>
             <div>
                 <NavBar />
-                <div style={{display:"block"}}>
+                <div style={{ display: "block" }}>
                     <SideBar />
                     <div className={styles.diamond}>
-                        
+
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ const NavBar = () => {
     return (
         <div style={{ position: "sticky", top: "0px", zIndex: "50"}}>
             <Box component="div" sx={{ flexGrow: 1 }}>
-                <AppBar position="sticky" style={{ backgroundColor: "#FFB2B2", boxShadow: "none" }}>
+                <AppBar position="sticky" style={{ backgroundColor: "#EEEEEE", boxShadow: "none" }}>
                     <Toolbar>
                         <div style={{
                             paddingLeft: "10px",
