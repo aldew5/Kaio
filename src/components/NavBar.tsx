@@ -12,7 +12,7 @@ const NavBar = () => {
     const navigate = useNavigate();
 
     return (
-        <div style={{ position: "sticky", top: "10px", zIndex: "50"}}>
+        <div style={{ position: "sticky", top: "0px", zIndex: "50"}}>
             <Box component="div" sx={{ flexGrow: 1 }}>
                 <AppBar position="sticky" style={{ backgroundColor: "#FFB2B2", boxShadow: "none" }}>
                     <Toolbar>

@@ -6,7 +6,7 @@ import styles from "../styles/Landing.module.css";
 
 const FAQ = () => {
     return (
-        <div style={{ textAlign: "center", paddingBottom: "2rem", backgroundColor: "#FFB2B2" }}>
+        <div style={{ textAlign: "center", paddingBottom: "2rem" }}>
             <NavBar />
             <div style={{ display: "block" }}>
                 <SideBar />
