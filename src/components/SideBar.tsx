@@ -5,27 +5,27 @@ import { IconButton } from '@mui/material';
 const SideBar = () => {
     return (
         <div style={{
-            position: "sticky", marginTop: "10px", marginRight: "20px", float: 'left',
-            width: "25px", marginLeft: "10px"
+            position: "sticky", marginTop: "150px", marginRight: "10px", 
+            width: "25px", marginLeft: "40px"
         }}>
             <div style={{
-                width: "6px", height: "200px", backgroundColor: "black",
+                width: "4px", height: "200px", backgroundColor: "white",
                 zIndex: "100", marginLeft: "10px", marginBottom: "10px"
             }}>
             </div>
             <div style={{ marginLeft: "-5px" }}>
-                <IconButton>
+                <IconButton sx={{color:"white"}}>
                     <TwitterIcon />
                 </IconButton>
             </div>
             <div style={{ marginTop: "10px", marginLeft: "-5px" }}>
-                <IconButton>
+                <IconButton sx={{color:"white"}}>
                     <InstagramIcon />
                 </IconButton>
             </div>
 
             <div style={{
-                width: "6px", height: "400px", backgroundColor: "black",
+                width: "4px", height: "300px", backgroundColor: "white",
                 zIndex: "100", marginLeft: "10px", display: "flex", float: "left", marginTop: "10px"
             }}></div>
         </div>

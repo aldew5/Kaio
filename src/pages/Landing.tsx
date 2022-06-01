@@ -5,16 +5,17 @@ import styles from "../styles/Landing.module.css";
 const Landing = () => {
     return (
         <div className={styles.main}>
-            <div>
+            <div style={{position:"absolute"}}>
                 <NavBar />
-                <div style={{ display: "block" }}>
+                </div>
+                <div style={{position:"absolute"}}>
                     <SideBar />
+                    </div>
                     <div className={styles.diamond}>
-
+                       
                     </div>
                 </div>
-            </div>
-        </div>
+          
     )
 }
 

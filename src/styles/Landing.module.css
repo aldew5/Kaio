@@ -5,13 +5,15 @@
 }
 
 .diamond {
-    background-image: url("../assets/anime.jpeg");
-    bottom: 150px;
-    display: flex;
-    float:"left";
-    padding-left: 100px;
-    width: 1280px;
-    height: 725px; 
+
+    background: url("../assets/bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    width: 1440px;
+    height: 805px; 
 }
 
 .map {

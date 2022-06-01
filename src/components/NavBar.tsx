@@ -12,29 +12,52 @@ const NavBar = () => {
     const navigate = useNavigate();
 
     return (
-        <div style={{ position: "sticky", top: "0px", zIndex: "50"}}>
+        <div style={{ position: "fixed", top: "0px", zIndex: "50" }}>
             <Box component="div" sx={{ flexGrow: 1 }}>
-                <AppBar position="sticky" style={{ backgroundColor: "#EEEEEE", boxShadow: "none" }}>
+                <AppBar position="fixed" style={{ background: "transparent", boxShadow: "none" }}>
                     <Toolbar>
                         <div style={{
-                            paddingLeft: "10px",
-                            paddingRight: "10px", paddingTop: "5px", paddingBottom: "5px",
-                            backgroundColor:"black", borderRadius:"15px"
+                           
                         }}>
-                            <img src={GoldLogo} alt="not found" style={{ width: "70px"}}
+                            <img src={GoldLogo} alt="not found" style={{ width: "70px" }}
                                 onClick={() => { navigate("/") }} />
                         </div>
-                        <Button style={{ borderRadius: 8, backgroundColor: "black" }}
-                            variant='contained' sx={{ marginLeft: "62rem" }} onClick={() => { navigate("/crew") }}>
-                            CREW
+                        <Button style={{
+                            color: "white",
+                            fontWeight: "500"
+                        }} sx={{ marginLeft: "50rem", textTransform: "none" }} onClick={() => { navigate("/crew") }}>
+                            Lore
                         </Button>
-                        <Button style={{ borderRadius: 8, backgroundColor: "black", marginLeft: "15px" }}
-                            variant='contained' onClick={() => { navigate("/map") }}>
-                            MAP
+                        <Button style={{
+                            color: "white",
+                            fontWeight: "500"
+                        }}
+                            sx={{ textTransform: "none" }}
+                            onClick={() => { navigate("/map") }}>
+                            Roadmap
                         </Button>
-                        <Button style={{ borderRadius: 8, backgroundColor: "black", marginLeft: "15px" }}
-                            variant='contained' onClick={() => { navigate("/faq") }}>
-                            FAQ
+                        <Button style={{
+                            color: "white",
+                            fontWeight: "500"
+                        }}
+                            sx={{ textTransform: "none" }}
+                            onClick={() => { navigate("/faq") }}>
+                            Our Team
+                        </Button>
+                        <Button style={{
+                            color: "white",
+                            fontWeight: "500"
+                        }}
+                            sx={{ textTransform: "none" }}
+                            onClick={() => { navigate("/faq") }}>
+                            Pixel Board
+                        </Button>
+                        <Button
+                            sx={{ textTransform: "none" }}
+                            style={{
+                                color: "white", fontWeight: "500"
+                            }}>
+                            FAQs
                         </Button>
                     </Toolbar>
                 </AppBar>
