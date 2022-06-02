@@ -5,15 +5,14 @@
 }
 
 .diamond {
-
-    background: url("../assets/bg.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("../assets/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
     width: 1440px;
-    height: 805px; 
+    height: 805px;
 }
 
 .map {

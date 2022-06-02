@@ -5,3 +5,27 @@
 .title {
     margin-left: 40rem;
 }
+
+.button {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: none;
+    margin-left: 1rem;
+}
+
+.leading {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: none;
+    margin-left: 50rem;
+}
+
+.leading:hover {
+    font-weight: 900;
+}
+
+.button:hover {
+    font-weight: 900;
+}

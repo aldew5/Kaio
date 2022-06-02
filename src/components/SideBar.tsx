@@ -9,23 +9,23 @@ const SideBar = () => {
             width: "25px", marginLeft: "40px"
         }}>
             <div style={{
-                width: "4px", height: "200px", backgroundColor: "white",
+                width: "2px", height: "200px", backgroundColor: "white",
                 zIndex: "100", marginLeft: "10px", marginBottom: "10px"
             }}>
             </div>
-            <div style={{ marginLeft: "-5px" }}>
+            <div style={{ marginLeft: "-8px" }}>
                 <IconButton sx={{color:"white"}}>
                     <TwitterIcon />
                 </IconButton>
             </div>
-            <div style={{ marginTop: "10px", marginLeft: "-5px" }}>
+            <div style={{ marginTop: "10px", marginLeft: "-8px" }}>
                 <IconButton sx={{color:"white"}}>
                     <InstagramIcon />
                 </IconButton>
             </div>
 
             <div style={{
-                width: "4px", height: "300px", backgroundColor: "white",
+                width: "2px", height: "300px", backgroundColor: "white",
                 zIndex: "100", marginLeft: "10px", display: "flex", float: "left", marginTop: "10px"
             }}></div>
         </div>

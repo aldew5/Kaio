@@ -3,9 +3,10 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import GoldLogo from "../assets/Gold.png";
-import Logo from "../assets/Logo.png";
+import styles from "../styles/NavBar.module.css";
 
 import { useNavigate } from 'react-router-dom';
+
 
 const NavBar = () => {
 
@@ -16,47 +17,53 @@ const NavBar = () => {
             <Box component="div" sx={{ flexGrow: 1 }}>
                 <AppBar position="fixed" style={{ background: "transparent", boxShadow: "none" }}>
                     <Toolbar>
-                        <div style={{
-                           
-                        }}>
+                        <div>
                             <img src={GoldLogo} alt="not found" style={{ width: "70px" }}
                                 onClick={() => { navigate("/") }} />
                         </div>
-                        <Button style={{
-                            color: "white",
-                            fontWeight: "500"
-                        }} sx={{ marginLeft: "50rem", textTransform: "none" }} onClick={() => { navigate("/crew") }}>
+                        <Button
+                            sx={{
+                                color: "white", fontSize: "17px", fontWeight: "500",
+                                textTransform: "none", marginLeft: "50rem"
+                            }}
+                            className={styles.leading}
+                            onClick={() => { navigate("/crew") }}>
                             Lore
                         </Button>
-                        <Button style={{
-                            color: "white",
-                            fontWeight: "500"
-                        }}
-                            sx={{ textTransform: "none" }}
+                        <Button
+                            sx={{
+                                color: "white", fontSize: "17px", fontWeight: "500",
+                                textTransform: "none", marginLeft: "1rem"
+                            }}
+                            className={styles.button}
                             onClick={() => { navigate("/map") }}>
                             Roadmap
                         </Button>
-                        <Button style={{
-                            color: "white",
-                            fontWeight: "500"
-                        }}
-                            sx={{ textTransform: "none" }}
+                        <Button
+                            sx={{
+                                color: "white", fontSize: "17px", fontWeight: "500",
+                                textTransform: "none", marginLeft: "1rem"
+                            }}
+                            style={{ color: "white" }}
                             onClick={() => { navigate("/faq") }}>
                             Our Team
                         </Button>
-                        <Button style={{
-                            color: "white",
-                            fontWeight: "500"
-                        }}
-                            sx={{ textTransform: "none" }}
+                        <Button
+                            sx={{
+                                color: "white", fontSize: "17px", fontWeight: "500",
+                                textTransform: "none", marginLeft: "1rem"
+                            }}
+                            className={styles.button}
                             onClick={() => { navigate("/faq") }}>
                             Pixel Board
                         </Button>
                         <Button
-                            sx={{ textTransform: "none" }}
-                            style={{
-                                color: "white", fontWeight: "500"
-                            }}>
+                            sx={{
+                                color: "white", fontSize: "17px", fontWeight: "500",
+                                textTransform: "none", marginLeft: "1rem"
+                            }}
+                            className={styles.button}
+                        >
                             FAQs
                         </Button>
                     </Toolbar>
