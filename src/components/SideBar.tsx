@@ -5,7 +5,7 @@ import { IconButton } from '@mui/material';
 const SideBar = () => {
     return (
         <div style={{
-            position: "sticky", marginTop: "150px", marginRight: "10px", 
+            position: "fixed", top: "0px", marginTop: "150px", marginRight: "10px", 
             width: "25px", marginLeft: "40px"
         }}>
             <div style={{

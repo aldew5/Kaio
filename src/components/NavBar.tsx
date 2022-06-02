@@ -6,12 +6,9 @@ import BlackLogo from "../assets/blacklogo.png";
 import Crystal from "../assets/Crystal.png";
 import styles from "../styles/NavBar.module.css";
 
-import { useNavigate } from 'react-router-dom';
-
 
 const NavBar = () => {
 
-    const navigate = useNavigate();
 
     return (
         <div style={{ position: "fixed", top: "0px", zIndex: "50" }}>
@@ -23,15 +20,15 @@ const NavBar = () => {
                         </div>
                         <div>
                             <img src={BlackLogo} alt="not found" style={{ width: "100px", marginLeft:"-50px" }}
-                                onClick={() => { navigate("/") }} />
+                               />
                         </div>
                         <Button
                             sx={{
                                 color: "white", fontSize: "17px", fontWeight: "500",
-                                textTransform: "none", marginLeft: "40rem"
+                                textTransform: "none", marginLeft: "47rem"
                             }}
                             className={styles.leading}
-                            onClick={() => { navigate("/crew") }}>
+                         >
                             Lore
                         </Button>
                         <Button
@@ -40,7 +37,7 @@ const NavBar = () => {
                                 textTransform: "none", marginLeft: "1rem"
                             }}
                             className={styles.button}
-                            onClick={() => { navigate("/map") }}>
+                            >
                             Roadmap
                         </Button>
                         <Button
@@ -49,7 +46,7 @@ const NavBar = () => {
                                 textTransform: "none", marginLeft: "1rem"
                             }}
                             style={{ color: "white" }}
-                            onClick={() => { navigate("/faq") }}>
+                           >
                             Our Team
                         </Button>
                         <Button
@@ -58,7 +55,7 @@ const NavBar = () => {
                                 textTransform: "none", marginLeft: "1rem"
                             }}
                             className={styles.button}
-                            onClick={() => { navigate("/faq") }}>
+                        >
                             Pixel Board
                         </Button>
                         <Button
