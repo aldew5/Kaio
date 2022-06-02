@@ -2,7 +2,8 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
-import GoldLogo from "../assets/Gold.png";
+import BlackLogo from "../assets/blacklogo.png";
+import Crystal from "../assets/Crystal.png";
 import styles from "../styles/NavBar.module.css";
 
 import { useNavigate } from 'react-router-dom';
@@ -18,13 +19,16 @@ const NavBar = () => {
                 <AppBar position="fixed" style={{ background: "transparent", boxShadow: "none" }}>
                     <Toolbar>
                         <div>
-                            <img src={GoldLogo} alt="not found" style={{ width: "70px" }}
+                        <img src={Crystal} alt="not fount" style={{ width: "150px", marginLeft:"-50px"}} />
+                        </div>
+                        <div>
+                            <img src={BlackLogo} alt="not found" style={{ width: "100px", marginLeft:"-50px" }}
                                 onClick={() => { navigate("/") }} />
                         </div>
                         <Button
                             sx={{
                                 color: "white", fontSize: "17px", fontWeight: "500",
-                                textTransform: "none", marginLeft: "50rem"
+                                textTransform: "none", marginLeft: "40rem"
                             }}
                             className={styles.leading}
                             onClick={() => { navigate("/crew") }}>
