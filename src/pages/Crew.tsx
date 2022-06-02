@@ -1,5 +1,5 @@
 import Biography from "../components/Biography";
-import styles from "../styles/Landing.module.css";
+
 
 const Crew = () => {
     return (
@@ -13,26 +13,28 @@ const Crew = () => {
             <div style={{ paddingTop: "2rem", display: "flex", marginLeft: "100px", justifyContent: "center" }}>
                 <div style={{ display: "flex", float: "left", paddingLeft: "1rem" }}>
                     <Biography
-                        text={"This is where your short biography will go"}
-                        image={"Nothing"}
-                        position={"Position in the company"}
-                        name={"Name"}
+                        text={"Does all things marketing. Focuses on increasing brand recognition and establishing collaborations with various partners. One-piece fanboy. "}
+                        image={"Vlad"}
+                        position={"Marketing"}
+                        name={"Vlad"}
                     />
                 </div>
                 <div style={{ display: "flex", float: "left", paddingLeft: "1rem" }}>
                     <Biography
-                        text={"This is where your short biography will go"}
-                        image={"Nothing"}
-                        position={"Position in the company"}
-                        name={"Name"}
+                        text={`Oversees and manages Kaio’s socials. Strives to make the Kaio community an inclusive 
+                        space for all and values interacting with holders. Devoted Boston Celtics fan.`}
+                        image={"Ira"}
+                        position={"Community manager"}
+                        name={"Ira"}
                     />
                 </div>
                 <div style={{ display: "flex", float: "left", paddingLeft: "1rem" }}>
                     <Biography
-                        text={"This is where your short biography will go"}
-                        image={"Nothing"}
-                        position={"Position in the company"}
-                        name={"Name"}
+                        text={`Responsible for most of the design aspects of the collection. 
+                        Has ample experience in design and illustration achieved by working in various design jobs. Loves anime.`}
+                        image={"Yang"}
+                        position={"Design"}
+                        name={"Yang"}
                     />
                 </div>
             </div>
