@@ -25,7 +25,7 @@ const NavBar = () => {
                         <Button
                             sx={{
                                 color: "white", fontSize: "17px", fontWeight: "500",
-                                textTransform: "none", marginLeft: "47rem"
+                                textTransform: "none", marginLeft: "45rem"
                             }}
                             className={styles.leading}
                          >
@@ -45,8 +45,8 @@ const NavBar = () => {
                                 color: "white", fontSize: "17px", fontWeight: "500",
                                 textTransform: "none", marginLeft: "1rem"
                             }}
-                            style={{ color: "white" }}
-                           >
+                            className={styles.button}
+                            >
                             Our Team
                         </Button>
                         <Button
@@ -56,7 +56,7 @@ const NavBar = () => {
                             }}
                             className={styles.button}
                         >
-                            Pixel Board
+                            Pixel Board 
                         </Button>
                         <Button
                             sx={{
