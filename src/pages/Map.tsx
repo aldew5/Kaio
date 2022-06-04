@@ -1,16 +1,36 @@
-import NavBar from "../components/NavBar";
-import SideBar from "../components/SideBar";
-import MapImage from "../assets/Mapnobg.png";
+import { useState, useEffect } from "react";
+
+import LinedMap from "../assets/Mapnobg.png";
+import EmptyMap from "../assets/empty_map.png";
 
 
 const Map = () => {
+
+    const [scrolled, setScrolled] = useState<number>(0);
+
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrolled(position);
+
+    }
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div style={{ backgroundColor: "black" }}>
 
-            <div style={{ display: "block" }}>
-
-                <div style={{ backgroundImage: "radial-gradient(grey, black)" }}>
-                    <img src={MapImage} alt={"not found"} style={{ width: "500px" }} />
+            <div style={{display: "grid"}}>
+                <div style={{ backgroundImage: "radial-gradient(grey, black)", gridColumn: 1, gridRow: 1 }}>
+                    <img src={EmptyMap} alt={"not found"} style={{ width: "500px" }} />
+                </div>
+                <div style={{ gridColumn: 1, gridRow: 1,
+                 height: scrolled - 150, maxHeight: "1100px", overflow:"hidden"}}>
+                    <img src={LinedMap} alt={"not found"} style={{width: "500px"}} />
                 </div>
             </div>
         </div>
