@@ -9,18 +9,17 @@ import styles from "../styles/NavBar.module.css";
 
 const NavBar = () => {
 
-
     return (
         <div style={{ position: "fixed", top: "0px", zIndex: "50" }}>
             <Box component="div" sx={{ flexGrow: 1 }}>
                 <AppBar position="fixed" style={{ background: "transparent", boxShadow: "none" }}>
                     <Toolbar>
                         <div>
-                        <img src={Crystal} alt="not fount" style={{ width: "150px", marginLeft:"-50px"}} />
+                            <img src={Crystal} alt="not fount" style={{ width: "150px", marginLeft: "-50px" }} />
                         </div>
                         <div>
-                            <img src={BlackLogo} alt="not found" style={{ width: "100px", marginLeft:"-50px" }}
-                               />
+                            <img src={BlackLogo} alt="not found" style={{ width: "100px", marginLeft: "-50px" }}
+                            />
                         </div>
                         <Button
                             sx={{
@@ -28,7 +27,7 @@ const NavBar = () => {
                                 textTransform: "none", marginLeft: "45rem"
                             }}
                             className={styles.leading}
-                         >
+                        >
                             Lore
                         </Button>
                         <Button
@@ -37,7 +36,7 @@ const NavBar = () => {
                                 textTransform: "none", marginLeft: "1rem"
                             }}
                             className={styles.button}
-                            >
+                        >
                             Roadmap
                         </Button>
                         <Button
@@ -46,7 +45,7 @@ const NavBar = () => {
                                 textTransform: "none", marginLeft: "1rem"
                             }}
                             className={styles.button}
-                            >
+                        >
                             Our Team
                         </Button>
                         <Button
@@ -56,7 +55,7 @@ const NavBar = () => {
                             }}
                             className={styles.button}
                         >
-                            Pixel Board 
+                            Pixel Board
                         </Button>
                         <Button
                             sx={{

@@ -2,12 +2,16 @@ import { BorderStyle } from "@mui/icons-material";
 
 const Lore = () => {
     return (
-        <div style={{textAlign:"left", paddingLeft: "3rem", paddingRight: "3rem",
-            height: "800px", marginTop: "-30px", paddingTop: "5rem", 
-            backgroundImage: "radial-gradient(grey, black)"}}>
-            <div style={{backgroundColor: "#EEEEEE", fontFamily: 'Koulen cursive', fontSize:"20px",
-                padding: "10px", paddingLeft:"50px", paddingRight: "50px", borderRadius: "40px",
-                borderStyle: "inset"}}>
+        <div style={{
+            textAlign: "left", paddingLeft: "3rem", paddingRight: "3rem",
+            height: "800px", marginTop: "-30px", paddingTop: "5rem",
+            backgroundImage: "radial-gradient(grey, black)"
+        }}>
+            <div style={{
+                backgroundColor: "#EEEEEE", fontFamily: 'Koulen cursive', fontSize: "20px",
+                padding: "10px", paddingLeft: "50px", paddingRight: "50px", borderRadius: "40px",
+                borderStyle: "inset"
+            }}>
                 <h3>Kiao Lore</h3>
                 <p>
                     The days of the sea have proven to be lucrative for some,
