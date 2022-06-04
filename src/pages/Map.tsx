@@ -5,7 +5,6 @@ import EmptyMap from "../assets/empty_map.png";
 
 
 const Map = () => {
-
     const [scrolled, setScrolled] = useState<number>(0);
 
     const handleScroll = () => {
@@ -13,6 +12,7 @@ const Map = () => {
         setScrolled(position);
 
     }
+    
     useEffect(() => {
         window.addEventListener('scroll', handleScroll, { passive: true });
 
@@ -22,8 +22,7 @@ const Map = () => {
     }, []);
 
     return (
-        <div style={{ backgroundColor: "black" }}>
-
+        <div>
             <div style={{display: "grid"}}>
                 <div style={{ backgroundImage: "radial-gradient(grey, black)", gridColumn: 1, gridRow: 1 }}>
                     <img src={EmptyMap} alt={"not found"} style={{ width: "500px" }} />
