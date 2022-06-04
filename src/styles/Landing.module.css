@@ -1,22 +1,14 @@
-.main {
+.container {
     margin: auto;
-    display: "flex";
-    background-color: #EEEEEE;
+    display: block;
 }
 
-.diamond {
+.main {
     background: url("../assets/bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     width: 1440px;
     height: 805px;
-}
-
-.map {
-    padding-top: "2rem";
-    justify-content: center;
-    background-color: rgb(162, 162, 238);
 }
