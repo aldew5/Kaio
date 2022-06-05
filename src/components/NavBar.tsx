@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import BlackLogo from "../assets/blacklogo.png";
-import Crystal from "../assets/crystal.png";
+import Crystal from "../assets/crystal_logo.png";
 import styles from "../styles/NavBar.module.css";
 
 
