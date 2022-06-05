@@ -11,4 +11,5 @@
     background-size: cover;
     width: 1440px;
     height: 805px;
+    background-attachment: scroll;
 }

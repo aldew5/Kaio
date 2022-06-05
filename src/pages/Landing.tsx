@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
+import Crystal from "../assets/gem.gif";
 import styles from "../styles/Landing.module.css";
 
 const Landing = () => {
@@ -12,7 +13,9 @@ const Landing = () => {
                 <SideBar />
             </div>
             <div className={styles.main}>
-
+                <div style={{ paddingTop: "350px", paddingLeft: "100px" }}>
+                    <img src={Crystal} alt="not found" />
+                </div>
             </div>
         </div>
 
