@@ -27,7 +27,8 @@ const Question = ({ question, response }: QuestionProps) => {
     });
 
     return (
-        <div style={{ width: "700px", marginBottom: "2rem" }} onMouseEnter={() => { setMouse(true) }}
+        <div style={{ width: "700px", marginBottom: "2rem", color: "white" }}
+            onMouseEnter={() => { setMouse(true) }}
             onMouseLeave={() => { setMouse(false) }}>
             <div style={{ float: "right", marginRight: "-10px" }}>
                 {(open) ?

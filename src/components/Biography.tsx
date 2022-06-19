@@ -1,6 +1,6 @@
-import Vlad from "../assets/vlad.png";
-import Ira from "../assets/ira.png"
-import Yang from "../assets/yang.png";
+import Vlad from "../assets/captain-vlad.png";
+import Ira from "../assets/quartermaster-ira.png"
+import Yang from "../assets/cartographer-yang.png";
 
 interface BiographyProps {
     image: string;
@@ -13,9 +13,9 @@ interface BiographyProps {
 const Biography = ({ image, position, text, name }: BiographyProps) => {
 
     return (
-        <div style={{ textAlign: "left", width: "255px" }}>
+        <div style={{ textAlign: "left", width: "400px" }}>
             <img src={(image === "Vlad") ? Vlad : ((image === "Ira") ? Ira : Yang)}
-                alt="not found" style={{ height: "300px" }} />
+                alt="not found" style={{ height: "450px" }} />
             <div>
                 <div style={{ marginTop: "1rem", fontSize: "19px" }}>{name}</div>
                 <div style={{ marginTop: "0.5rem", color: "grey" }}><b>{position}</b></div>

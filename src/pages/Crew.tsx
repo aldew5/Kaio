@@ -6,10 +6,10 @@ const Crew = () => {
     return (
         <div className={styles.container}>
             <div style={{
-                textAlign: "center", justifyContent: "center", marginLeft: "120px", paddingTop: "250px",
+                textAlign: "left", justifyContent: "center", marginLeft: "160px", paddingTop: "250px",
                 fontFamily: 'Koulen cursive', fontSize: "40px"
             }}>
-                <b>Meet Our Team</b>
+                <b>Our Team</b>
             </div>
             <div style={{ paddingTop: "2rem", display: "flex", marginLeft: "100px", justifyContent: "center" }}>
                 <div style={{ display: "flex", float: "left", paddingLeft: "1.5rem" }}>

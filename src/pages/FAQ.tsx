@@ -1,5 +1,6 @@
 import Question from "../components/Question";
 import { Typography } from "@mui/material";
+import Footer from "../assets/footer-paper.png";
 
 const FAQ = () => {
 
@@ -7,9 +8,8 @@ const FAQ = () => {
         <div style={{ paddingTop: "4rem", textAlign: "left" }}>
             <div style={{ marginLeft: "320px" }}>
                 <div style={{ marginBottom: "2rem" }}>
-                    <Typography variant="h4" color="black"><b>FAQ</b></Typography>
+                    <Typography variant="h4" color="white"><b>Frequently Asked Questions</b></Typography>
                 </div>
-
                 <Question
                     question={"What is Kaio?"}
                     response={`Kaio is a collection of 6,500 hand-drawn profile picture 
@@ -54,6 +54,9 @@ const FAQ = () => {
                     response={`Most of the interaction with the community will be done through Twitter and Discord. We will also host 
                             Twitter spaces where you can put the team on a ‘hot seat’ and ask us questions.`}
                 />
+            </div>
+            <div>
+                <img src={Footer} alt="not found" />
             </div>
         </div>
 
