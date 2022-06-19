@@ -3,7 +3,7 @@ import Biography from "../components/Biography";
 
 const Crew = () => {
     return (
-        <div style={{ paddingBottom: "2rem", paddingTop: "2rem", backgroundColor: "#EEEEEE", justifyContent: "center", height: "755px" }}>
+        <div style={{ paddingBottom: "2rem", paddingTop: "2rem", justifyContent: "center", height: "755px" }}>
             <div style={{
                 textAlign: "center", justifyContent: "center", marginLeft: "120px", paddingTop: "40px",
                 fontFamily: 'Koulen cursive', fontSize: "40px"

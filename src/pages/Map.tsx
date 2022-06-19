@@ -24,7 +24,7 @@ const Map = () => {
     return (
         <div>
             <div style={{ display: "grid" }}>
-                <div style={{ backgroundImage: "radial-gradient(grey, black)", gridColumn: 1, gridRow: 1 }}>
+                <div style={{  gridColumn: 1, gridRow: 1 }}>
                     <img src={EmptyMap} alt={"not found"} style={{ width: "500px" }} />
                 </div>
                 <div style={{

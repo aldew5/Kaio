@@ -13,8 +13,8 @@ const Landing = () => {
                 <SideBar />
             </div>
             <div className={styles.main}>
-                <div style={{ paddingTop: "350px", paddingLeft: "100px" }}>
-                    <img src={Gem} alt="not found" />
+                <div style={{ paddingTop: "350px", paddingLeft: "100px", paddingBottom: "200px" }}>
+                    <img src={Gem} alt="not found" width="700px"/>
                 </div>
             </div>
         </div>

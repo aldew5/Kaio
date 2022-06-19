@@ -8,11 +8,10 @@ import styles from "../styles/NavBar.module.css";
 
 
 const NavBar = () => {
-
+    // appbar for movement
     return (
-        <div style={{ position: "fixed", top: "0px", zIndex: "50" }}>
+        <div >
             <Box component="div" sx={{ flexGrow: 1 }}>
-                <AppBar position="fixed" style={{ background: "transparent", boxShadow: "none" }}>
                     <Toolbar>
                         <div>
                             <img
@@ -72,7 +71,7 @@ const NavBar = () => {
                             FAQs
                         </Button>
                     </Toolbar>
-                </AppBar>
+               
             </Box>
         </div>
     );
