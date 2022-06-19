@@ -1,0 +1,7 @@
+.container {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    justify-content: center;
+    height: 1415px;
+    background: url("../assets/our-team-bg.png");
+}

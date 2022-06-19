@@ -1,11 +1,12 @@
 import Biography from "../components/Biography";
+import styles from "../styles/Crew.module.css";
 
 
 const Crew = () => {
     return (
-        <div style={{ paddingBottom: "2rem", paddingTop: "2rem", justifyContent: "center", height: "755px" }}>
+        <div className={styles.container}>
             <div style={{
-                textAlign: "center", justifyContent: "center", marginLeft: "120px", paddingTop: "40px",
+                textAlign: "center", justifyContent: "center", marginLeft: "120px", paddingTop: "250px",
                 fontFamily: 'Koulen cursive', fontSize: "40px"
             }}>
                 <b>Meet Our Team</b>

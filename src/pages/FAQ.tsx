@@ -4,7 +4,7 @@ import { Typography } from "@mui/material";
 const FAQ = () => {
 
     return (
-        <div style={{ paddingTop: "4rem", backgroundColor: "white", textAlign: "left" }}>
+        <div style={{ paddingTop: "4rem", textAlign: "left" }}>
             <div style={{ marginLeft: "320px" }}>
                 <div style={{ marginBottom: "2rem" }}>
                     <Typography variant="h4" color="black"><b>FAQ</b></Typography>
