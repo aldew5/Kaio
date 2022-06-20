@@ -1,14 +1,13 @@
 import Question from "../components/Question";
-import { Typography } from "@mui/material";
 import Footer from "../assets/footer-paper.png";
 
 const FAQ = () => {
 
     return (
         <div style={{ paddingTop: "4rem", textAlign: "left" }}>
-            <div style={{ marginLeft: "320px" }}>
-                <div style={{ marginBottom: "2rem" }}>
-                    <Typography variant="h4" color="white"><b>Frequently Asked Questions</b></Typography>
+            <div style={{ marginLeft: "320px", color:"white" }}>
+                <div style={{ marginBottom: "2rem", fontSize: "30px" }}>
+                    <b>Frequently Asked Questions</b>
                 </div>
                 <Question
                     question={"What is Kaio?"}
@@ -56,7 +55,7 @@ const FAQ = () => {
                 />
             </div>
             <div>
-                <img src={Footer} alt="not found" />
+                <img src={Footer} alt="not found" width="1440px"/>
             </div>
         </div>
 

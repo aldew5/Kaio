@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-image: url("./assets/brown-bg-with-stains.png");
+  font-family: 'Ghost', sans-serif;
+  background-image: url("./assets/bg_overlay.png");
 }
 
 .App-logo {
@@ -38,3 +39,7 @@
   }
 }
 
+@font-face {
+  font-family: "Ghost";
+  src: URL('./assets/fonts/Ghost_theory_1.ttf') format('truetype');
+}

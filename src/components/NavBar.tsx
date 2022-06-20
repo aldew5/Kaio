@@ -10,7 +10,7 @@ import styles from "../styles/NavBar.module.css";
 const NavBar = () => {
     // appbar for movement
     return (
-        <div >
+        <div className={styles.container}>
             <Box component="div" sx={{ flexGrow: 1 }}>
                     <Toolbar>
                         <div>

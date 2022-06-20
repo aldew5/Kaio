@@ -29,3 +29,8 @@
 .button:hover {
     font-weight: 900;
 }
+
+@font-face {
+    font-family: "Ghost";
+    src: URL('../assets/fonts/Ghost_theory_1.ttf') format('truetype');
+  }

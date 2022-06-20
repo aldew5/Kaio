@@ -1,15 +1,19 @@
 .container {
-    text-align: left;
-    padding-right: 3rem;
-    height: 800px;
-    padding-top: 5rem;
+    display: table;
     color: 'white';
+    width: 100%;
+    padding-bottom: 200px;
+    font-family: 'Morris', sans-serif;
 }
 
 .text {
     background-color: #EEEEEE;
-    font-family: 'Koulen' cursive;
     font-size: 20px;
     padding-right: 50px;
     border-radius: 40px;
+}
+
+@font-face {
+    font-family: "Morris";
+    src: url("../assets/fonts/MorrisRomanBlack.ttf") format("truetype");
 }
