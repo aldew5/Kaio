@@ -1,5 +1,4 @@
 import Question from "../components/Question";
-import Footer from "../assets/footer-paper.png";
 
 const FAQ = () => {
 
