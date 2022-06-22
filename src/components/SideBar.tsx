@@ -5,7 +5,7 @@ import { IconButton } from '@mui/material';
 const SideBar = () => {
     return (
         <div style={{
-          marginTop: "150px", marginRight: "10px",
+            marginTop: "150px", marginRight: "10px",
             width: "25px", marginLeft: "40px"
         }}>
             <div style={{
@@ -15,12 +15,16 @@ const SideBar = () => {
             </div>
             <div style={{ marginLeft: "-8px" }}>
                 <IconButton sx={{ color: "white" }}>
-                    <TwitterIcon />
+                    <TwitterIcon
+                        onClick={() => { window.location.href = "https://twitter.com/Nft_Kaio"; }
+                        } />
                 </IconButton>
             </div>
             <div style={{ marginTop: "10px", marginLeft: "-8px" }}>
                 <IconButton sx={{ color: "white" }}>
-                    <InstagramIcon />
+                    <InstagramIcon
+                        onClick={() => { window.location.href = "https://www.instagram.com/nft_kaio/"; }
+                        } />
                 </IconButton>
             </div>
 
