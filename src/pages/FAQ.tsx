@@ -54,9 +54,6 @@ const FAQ = () => {
                             Twitter spaces where you can put the team on a ‘hot seat’ and ask us questions.`}
                 />
             </div>
-            <div>
-                <img src={Footer} alt="not found" width="1440px"/>
-            </div>
         </div>
 
     )

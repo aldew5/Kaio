@@ -4,6 +4,7 @@ import Crew from "./pages/Crew";
 import FAQ from "./pages/FAQ";
 import Map from "./pages/Map";
 import Lore from "./pages/Lore";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Map />
         <Crew />
         <FAQ />
+        <Footer />
       </div>
 
   );
