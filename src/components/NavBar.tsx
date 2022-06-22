@@ -1,4 +1,3 @@
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
@@ -10,7 +9,7 @@ import styles from "../styles/NavBar.module.css";
 const NavBar = () => {
     // appbar for movement
     return (
-        <div className={styles.container}>
+        <div>
             <Box component="div" sx={{ flexGrow: 1 }}>
                 <Toolbar>
                     <div>
@@ -28,7 +27,7 @@ const NavBar = () => {
                     <Button
                         sx={{
                             color: "white", fontSize: "17px", fontWeight: "500",
-                            textTransform: "none", marginLeft: "45rem"
+                            textTransform: "none", marginLeft: "50rem"
                         }}
                         className={styles.leading}
                         onClick={() => window.location.replace("/#lore")}

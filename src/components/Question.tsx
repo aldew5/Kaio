@@ -1,6 +1,7 @@
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import { useState, useEffect } from "react";
+import styles from "../styles/Question.module.css";
 
 interface QuestionProps {
     question: string;
@@ -32,11 +33,11 @@ const Question = ({ question, response }: QuestionProps) => {
             onMouseLeave={() => { setMouse(false) }}>
             <div style={{ float: "right", marginRight: "-10px" }}>
                 {(open) ?
-                    <ArrowDropUpIcon onClick={() => { setOpen(!open) }} /> :
-                    <ArrowDropDownIcon onClick={() => { setOpen(!open) }} />
+                    <ArrowDropUpIcon className={styles.arrow} onClick={() => { setOpen(!open) }} /> :
+                    <ArrowDropDownIcon className={styles.arrow} onClick={() => { setOpen(!open) }} />
                 }
             </div>
-            <div>
+            <div className={styles.arrow} onClick={() => { setOpen(!open) }}>
                 {question}
             </div>
             {(open) ?

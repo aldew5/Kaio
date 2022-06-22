@@ -4,3 +4,7 @@
     font-weight: 900;
     color: rgb(137, 34, 34);
 }
+
+.button:hover {
+    cursor: pointer;
+}
