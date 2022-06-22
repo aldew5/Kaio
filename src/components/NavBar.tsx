@@ -12,68 +12,63 @@ const NavBar = () => {
     return (
         <div className={styles.container}>
             <Box component="div" sx={{ flexGrow: 1 }}>
-                    <Toolbar>
-                        <div>
-                            <img
-                                src={Crystal} alt="not found"
-                                style={{ width: "150px", marginLeft: "-50px" }}
-                            />
-                        </div>
-                        <div>
-                            <img
-                                src={BlackLogo} alt="not found"
-                                style={{ width: "100px", marginLeft: "-50px" }}
-                            />
-                        </div>
-                        <Button
-                            sx={{
-                                color: "white", fontSize: "17px", fontWeight: "500",
-                                textTransform: "none", marginLeft: "45rem"
-                            }}
-                            className={styles.leading}
-                        >
-                            Lore
-                        </Button>
-                        <Button
-                            sx={{
-                                color: "white", fontSize: "17px", fontWeight: "500",
-                                textTransform: "none", marginLeft: "1rem"
-                            }}
-                            className={styles.button}
-                        >
-                            Roadmap
-                        </Button>
-                        <Button
-                            sx={{
-                                color: "white", fontSize: "17px", fontWeight: "500",
-                                textTransform: "none", marginLeft: "1rem"
-                            }}
-                            className={styles.button}
-                        >
-                            Our Team
-                        </Button>
-                        <Button
-                            sx={{
-                                color: "white", fontSize: "17px", fontWeight: "500",
-                                textTransform: "none", marginLeft: "1rem"
-                            }}
-                            className={styles.button}
-                        >
-                            Pixel Board
-                        </Button>
-                        <Button
-                            sx={{
-                                color: "white", fontSize: "17px", fontWeight: "500",
-                                textTransform: "none", marginLeft: "1rem"
-                            }}
-                            className={styles.button}
-                        >
-                            FAQs
-                        </Button>
-                    </Toolbar>
-               
+                <Toolbar>
+                    <div>
+                        <img
+                            src={Crystal} alt="not found"
+                            style={{ width: "150px", marginLeft: "-50px" }}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            src={BlackLogo} alt="not found"
+                            style={{ width: "100px", marginLeft: "-50px" }}
+                        />
+                    </div>
+                    <Button
+                        sx={{
+                            color: "white", fontSize: "17px", fontWeight: "500",
+                            textTransform: "none", marginLeft: "45rem"
+                        }}
+                        className={styles.leading}
+                        onClick={() => window.location.replace("/#lore")}
+                    >
+                        Lore
+                    </Button>
+                    <Button
+                        sx={{
+                            color: "white", fontSize: "17px", fontWeight: "500",
+                            textTransform: "none", marginLeft: "1rem"
+                        }}
+                        className={styles.button}
+                        onClick={() => window.location.replace("/#map")}
+                    >
+                        Roadmap
+                    </Button>
+                    <Button
+                        sx={{
+                            color: "white", fontSize: "17px", fontWeight: "500",
+                            textTransform: "none", marginLeft: "1rem"
+                        }}
+                        className={styles.button}
+                        onClick={() => window.location.replace("/#crew")}
+                    >
+                        Our Team
+                    </Button>
+                    <Button
+                        sx={{
+                            color: "white", fontSize: "17px", fontWeight: "500",
+                            textTransform: "none", marginLeft: "1rem"
+                        }}
+                        className={styles.button}
+                        onClick={() => window.location.replace("/#faq")}
+                    >
+                        FAQs
+                    </Button>
+                </Toolbar>
+
             </Box>
-        </div>
+        </div >
     );
 }
 

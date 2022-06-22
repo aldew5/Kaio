@@ -8,9 +8,6 @@ const Landing = () => {
     return (
         <div className={styles.container}>
             <div style={{ position: "absolute" }}>
-                <NavBar />
-            </div>
-            <div style={{ position: "absolute" }}>
                 <SideBar />
             </div>
             <div className={styles.main}>
