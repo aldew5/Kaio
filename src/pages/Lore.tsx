@@ -49,7 +49,7 @@ const Lore = () => {
                     one that would lead to the first piece of the map...
                 </p>
             </div>
-            <div className={styles.container}>
+            <div className={styles.container2}>
                 <div style={{ display: "table-row", textAlign: 'left' }}>
                     <div style={{ display: "table-cell", width: "650px", paddingLeft: "200px" }}>
                         <p>
@@ -59,7 +59,7 @@ const Lore = () => {
                         <p>
                             As word spread, pirates from around the world began implementing their search for the pieces of the map. They scoured far and wide,
                             yet no one had been able to find the first piece, let alone complete the map. It was not until years later, when one pirate captain ventured into a
-                            jungle temple on the southern coast of a remote island that he found the first piece, yet it turned out to be a fake. 
+                            jungle temple on the southern coast of a remote island that he found the first piece, yet it turned out to be a fake.
                         </p>
                         <p>
                             However, from here, the journey for Kaio’s treasure truly began, and as more pirates began finding more clues to where pieces of the map were, the race to finish became more
@@ -83,12 +83,15 @@ const Lore = () => {
                     </div>
                 </div>
             </div>
+            <p style={{ paddingBottom: "100px" }}>
+                Are ye ready mate?
+            </p>
             <div style={{ paddingBottom: "900px" }}>
                 <div style={{ position: "absolute" }}>
-                    <img src={ThirdRip} alt="not found" width="1440px" />
+                    <img src={ThirdRip} alt="not found" height="800px" width="1440px" />
                 </div>
                 <div style={{ zIndex: "100", position: "absolute" }}>
-                    <img src={Group} alt="not found" width="1440px" />
+                    <img src={Group} alt="not found" width="100%" />
                 </div>
             </div>
         </div>

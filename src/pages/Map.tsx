@@ -29,7 +29,7 @@ const Map = () => {
                 </div>
                 <div style={{
                     gridColumn: 1, gridRow: 1,
-                    height: scrolled - 1050, maxHeight: "1100px", overflow: "hidden"
+                    height: scrolled - 3000, maxHeight: "1100px", overflow: "hidden"
                 }}>
                     <img src={LinedMap} alt={"not found"} style={{ width: "500px" }} />
                 </div>
