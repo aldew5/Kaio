@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Ghost', sans-serif;
   background-image: url("./assets/bg_overlay.png");
+  width: 1440px;
 }
 
 .App-logo {
