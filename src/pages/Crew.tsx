@@ -7,7 +7,7 @@ const Crew = () => {
         <div className={styles.container}>
             <div style={{
                 textAlign: "left", justifyContent: "center", marginLeft: "160px", paddingTop: "250px",
-                fontSize: "40px", color: "#d2b48c"
+                fontSize: "40px", color: "#C4A484"
             }}>
                 <b>Our Team</b>
             </div>

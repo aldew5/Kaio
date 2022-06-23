@@ -17,8 +17,8 @@ const Biography = ({ image, position, text, name }: BiographyProps) => {
             <img src={(image === "Vlad") ? Vlad : ((image === "Ira") ? Ira : Yang)}
                 alt="not found" style={{ height: "450px" }} />
             <div>
-                <div style={{ marginTop: "1rem", fontSize: "25px" }}>{name}</div>
-                <div style={{ marginTop: "0.5rem", color: "grey", fontSize: "23px" }}><b>{position}</b></div>
+                <div style={{ marginTop: "1rem", fontSize: "25px" }}><b>{name}</b></div>
+                <div style={{ marginTop: "0.5rem", color:"#63666A", fontSize: "23px" }}><b>{position}</b></div>
                 <div style={{ marginTop: "0.5rem", fontSize: "20px" }}>{text}</div>
             </div>
         </div>

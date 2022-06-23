@@ -17,8 +17,8 @@ const Landing = () => {
                 }}>
                     <img src={Gem} alt="not found" width="170%" />
                 </div>
-                <div style={{position:"absolute", marginTop: "400px", marginLeft: "430px"}}>
-                    <img src={DiamondLogo} alt="not found" width="60%" />
+                <div style={{position:"absolute", marginTop: "175px", marginLeft: "150px"}}>
+                    <img src={DiamondLogo} alt="not found" width="50%" />
                 </div>
             </div>
         </div>

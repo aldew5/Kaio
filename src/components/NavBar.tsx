@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
-import BlackLogo from "../assets/blacklogo.png";
+import WhiteLogo from "../assets/kaio_white.png";
 import Crystal from "../assets/crystal_logo.png";
 import styles from "../styles/NavBar.module.css";
 
@@ -20,14 +20,14 @@ const NavBar = () => {
                     </div>
                     <div>
                         <img
-                            src={BlackLogo} alt="not found"
+                            src={WhiteLogo} alt="not found"
                             style={{ width: "100px", marginLeft: "-50px" }}
                         />
                     </div>
                     <Button
                         sx={{
                             color: "white", fontSize: "17px", fontWeight: "500",
-                            textTransform: "none", marginLeft: "50rem"
+                            textTransform: "none", marginLeft: "46rem"
                         }}
                         className={styles.leading}
                         onClick={() => window.location.replace("/#lore")}
@@ -63,6 +63,16 @@ const NavBar = () => {
                         onClick={() => window.location.replace("/#faq")}
                     >
                         FAQs
+                    </Button>
+                    <Button
+                        sx={{
+                            color: "white", fontSize: "17px", fontWeight: "500",
+                            textTransform: "none", marginLeft: "1rem"
+                        }}
+                        className={styles.button}
+                        onClick={() => window.location.replace("/#social")}
+                    >
+                        Social Media
                     </Button>
                 </Toolbar>
 

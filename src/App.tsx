@@ -29,7 +29,10 @@ function App() {
         <div id="faq">
           <FAQ />
         </div>
-        <Footer />
+        <div id="social">
+          <Footer />
+        </div>
+       
       </div>
 
   );
