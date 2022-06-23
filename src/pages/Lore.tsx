@@ -91,7 +91,7 @@ const Lore = () => {
                     <img src={ThirdRip} alt="not found" height="800px" width="1440px" />
                 </div>
                 <div style={{ zIndex: "100", position: "absolute" }}>
-                    <img src={Group} alt="not found" width="100%" />
+                    <img src={Group} alt="not found" width="1440px" />
                 </div>
             </div>
         </div>

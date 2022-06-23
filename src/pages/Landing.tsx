@@ -12,13 +12,13 @@ const Landing = () => {
             </div>
             <div className={styles.main}>
                 <div style={{
-                    marginTop: "200px", marginLeft: "200px", paddingBottom: "200px",
+                    marginTop: "300px", marginLeft: "300px", paddingBottom: "200px",
                     position: "absolute"
                 }}>
-                    <img src={Gem} alt="not found" width="170%" />
+                    <img src={Gem} alt="not found" width="900px" />
                 </div>
-                <div style={{position:"absolute", marginTop: "175px", marginLeft: "150px"}}>
-                    <img src={DiamondLogo} alt="not found" width="50%" />
+                <div style={{position:"absolute", marginTop: "275px", marginLeft: "550px"}}>
+                    <img src={DiamondLogo} alt="not found" width="500px" />
                 </div>
             </div>
         </div>
