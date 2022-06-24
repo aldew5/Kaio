@@ -24,56 +24,36 @@ const NavBar = () => {
                             style={{ width: "100px", marginLeft: "-50px" }}
                         />
                     </div>
-                    <Button
-                        sx={{
-                            color: "white", fontSize: "17px", fontWeight: "500",
-                            textTransform: "none", marginLeft: "46rem"
-                        }}
+                    <div
                         className={styles.leading}
                         onClick={() => window.location.replace("/#lore")}
                     >
                         Lore
-                    </Button>
-                    <Button
-                        sx={{
-                            color: "white", fontSize: "17px", fontWeight: "500",
-                            textTransform: "none", marginLeft: "1rem"
-                        }}
+                    </div>
+                    <div
                         className={styles.button}
                         onClick={() => window.location.replace("/#map")}
                     >
                         Roadmap
-                    </Button>
-                    <Button
-                        sx={{
-                            color: "white", fontSize: "17px", fontWeight: "500",
-                            textTransform: "none", marginLeft: "1rem"
-                        }}
+                    </div>
+                    <div
                         className={styles.button}
                         onClick={() => window.location.replace("/#crew")}
                     >
                         Our Team
-                    </Button>
-                    <Button
-                        sx={{
-                            color: "white", fontSize: "17px", fontWeight: "500",
-                            textTransform: "none", marginLeft: "1rem"
-                        }}
+                    </div>
+                    <div
                         className={styles.button}
                         onClick={() => window.location.replace("/#faq")}
                     >
                         FAQs
-                    </Button>
-                    <Button
-                        sx={{
-                            color: "white", fontSize: "17px", fontWeight: "500",
-                            textTransform: "none", marginLeft: "1rem"
-                        }}
+                    </div>
+                    <div
                         className={styles.button}
                         onClick={() => window.location.replace("/#social")}
                     >
                         Social Media
-                    </Button>
+                    </div>
                 </Toolbar>
 
             </Box>

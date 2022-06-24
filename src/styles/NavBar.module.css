@@ -9,24 +9,27 @@
 .button {
     color: white;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 23px;
     text-transform: none;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .leading {
     color: white;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 23px;
     text-transform: none;
+    margin-left: 43rem;
 }
 
 .leading:hover {
     font-weight: 900;
+    cursor: pointer;
 }
 
 .button:hover {
     font-weight: 900;
+    cursor: pointer;
 }
 
 @font-face {
