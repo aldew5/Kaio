@@ -1,6 +1,5 @@
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Button from '@mui/material/Button';
 import WhiteLogo from "../assets/kaio_white.png";
 import Crystal from "../assets/crystal_logo.png";
 import styles from "../styles/NavBar.module.css";
@@ -30,28 +29,20 @@ const NavBar = () => {
                     >
                         Lore
                     </div>
-                    <div
-                        className={styles.button}
-                        onClick={() => window.location.replace("/#map")}
-                    >
+                    <div className={styles.button}
+                        onClick={() => window.location.replace("/#map")}>
                         Roadmap
                     </div>
-                    <div
-                        className={styles.button}
-                        onClick={() => window.location.replace("/#crew")}
-                    >
+                    <div className={styles.button}
+                        onClick={() => window.location.replace("/#crew")}>
                         Our Team
                     </div>
-                    <div
-                        className={styles.button}
-                        onClick={() => window.location.replace("/#faq")}
-                    >
+                    <div className={styles.button}
+                        onClick={() => window.location.replace("/#faq")}>
                         FAQs
                     </div>
-                    <div
-                        className={styles.button}
-                        onClick={() => window.location.replace("/#social")}
-                    >
+                    <div className={styles.button}
+                        onClick={() => window.location.replace("/#social")}>
                         Social Media
                     </div>
                 </Toolbar>
