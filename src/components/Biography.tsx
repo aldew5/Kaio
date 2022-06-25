@@ -34,8 +34,10 @@ const Biography = ({ image, position, text, name }: BiographyProps) => {
                 <div style={{ marginTop: "0.5rem", color: "#63666A", fontSize: "23px" }}>
                     <b>{position}</b>
                 </div>
-                <div style={{ marginTop: "0.5rem", fontSize: "20px", 
-                    marginBottom: "20px", height: "90px" }}>
+                <div style={{
+                    marginTop: "0.5rem", fontSize: "20px",
+                    marginBottom: "20px", height: "90px"
+                }}>
                     {text}
                 </div>
                 <div style={{ display: "table", marginLeft: "-10px" }}>
