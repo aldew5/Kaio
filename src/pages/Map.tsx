@@ -9,7 +9,6 @@ const Map = () => {
     const handleScroll = () => {
         const position = window.pageYOffset;
         setScrolled(position);
-
     }
 
     useEffect(() => {
@@ -23,7 +22,7 @@ const Map = () => {
     return (
         <div>
             <div style={{ display: "grid" }}>
-                <div style={{  gridColumn: 1, gridRow: 1 }}>
+                <div style={{ gridColumn: 1, gridRow: 1 }}>
                     <img src={EmptyMap} alt={"not found"} style={{ width: "500px" }} />
                 </div>
                 <div style={{
@@ -34,7 +33,6 @@ const Map = () => {
                 </div>
             </div>
         </div>
-
     )
 
 }
