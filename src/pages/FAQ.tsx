@@ -6,7 +6,7 @@ const FAQ = () => {
         <div style={{ paddingTop: "4rem", textAlign: "left" }}>
             <div style={{ marginLeft: "320px", color:"white" }}>
                 <div style={{ marginBottom: "2rem", fontSize: "30px" }}>
-                    <b>Frequently Asked Questions</b>
+                    Frequently Asked Questions
                 </div>
                 <Question
                     question={"What is Kaio?"}

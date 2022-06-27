@@ -47,7 +47,7 @@ const Question = ({ question, response }: QuestionProps) => {
                 :
                 <></>
             }
-            <hr style={{ width: "700px" }} />
+            <hr style={{ width: "700px", borderTop: "dashed" }} />
         </div>
     )
 }

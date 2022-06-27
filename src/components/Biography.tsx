@@ -26,12 +26,12 @@ const Biography = ({ image, position, text, name }: BiographyProps) => {
     }
 
     return (
-        <div style={{ textAlign: "left", width: "400px" }}>
+        <div style={{ textAlign: "left", width: "320px", paddingLeft: "100px" }}>
             <img src={(image === "Vlad") ? Vlad : ((image === "Ira") ? Ira : Yang)}
                 alt="not found" style={{ height: "450px" }} />
-            <div>
-                <div style={{ marginTop: "1rem", fontSize: "25px" }}><b>{name}</b></div>
-                <div style={{ marginTop: "0.5rem", color: "#63666A", fontSize: "23px" }}>
+            <div style={{marginLeft: "20px"}}>
+                <div style={{ marginTop: "1rem", fontSize: "24px" }}><b>{name}</b></div>
+                <div style={{ marginTop: "0.5rem", color: "#49351B", fontSize: "23px" }}>
                     <b>{position}</b>
                 </div>
                 <div style={{

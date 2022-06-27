@@ -9,7 +9,7 @@ import Group from "../assets/group.png";
 
 const Lore = () => {
     return (
-        <div style={{ color: "white", fontSize: "25px", }}>
+        <div style={{ color: "white", fontSize: "25px", marginTop: "110px" }}>
             <p style={{ textAlign: 'center' }}>
                 The days of the sea have proven to be lucrative for some, <br />
                 and a series of disappointments for others...

@@ -6,12 +6,13 @@ const Crew = () => {
     return (
         <div className={styles.container}>
             <div style={{
-                textAlign: "left", justifyContent: "center", marginLeft: "160px", paddingTop: "250px",
-                fontSize: "40px", color: "#C4A484"
+                textAlign: "left", marginTop: "150px",
+                fontSize: "40px", color: "#89683d", paddingBottom: "80px",
+                marginLeft: "265px"
             }}>
                 <b>Our Team</b>
             </div>
-            <div style={{ paddingTop: "2rem", display: "flex", marginLeft: "100px", justifyContent: "center" }}>
+            <div style={{ paddingTop: "2rem", display: "flex", justifyContent: "center" }}>
                 <div style={{ display: "flex", float: "left", paddingLeft: "1.5rem" }}>
                     <Biography
                         text={"Does all things marketing. Focuses on increasing brand recognition and establishing collaborations with various partners. One-piece fanboy. "}

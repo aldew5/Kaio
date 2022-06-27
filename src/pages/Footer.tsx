@@ -6,7 +6,7 @@ import { IconButton } from "@mui/material";
 const Footer = () => {
     return (
         <div className={styles.container}>
-            <div style={{ display: 'table', paddingTop: '130px', paddingLeft: "200px" }}>
+            <div style={{ display: 'table', paddingTop: '150px', paddingLeft: "200px" }}>
                 <div style={{ display: "table-row" }}>
                     <div style={{ display: "table-cell", width: "200px" }}>
                         <div className={styles.button}>
@@ -19,7 +19,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div style={{ display: "table-cell", paddingLeft: "400px", width: "100px" }}>
-                        <IconButton>
+                        <IconButton sx={{color: "#837456"}}>
                             <InstagramIcon
                                 onClick={() => { window.location.href = "https://www.instagram.com/nft_kaio/"; }
                                 } />

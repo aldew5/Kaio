@@ -3,6 +3,10 @@
   font-family: 'Ghost', sans-serif;
   background-image: url("./assets/bg_overlay.png");
   width: 1440px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-style: solid;
+  border-color: #493622;
+  margin: auto;
 }
 
 .App-logo {

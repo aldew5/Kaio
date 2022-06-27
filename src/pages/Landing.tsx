@@ -1,4 +1,3 @@
-import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
 import Gem from "../assets/gem.gif";
 import DiamondLogo from "../assets/kaio_diamond.png";
@@ -12,12 +11,15 @@ const Landing = () => {
             </div>
             <div className={styles.main}>
                 <div style={{
-                    marginTop: "300px", marginLeft: "300px", paddingBottom: "200px",
-                    position: "absolute"
+                    boxShadow: "50px", marginTop: "300px", marginLeft: "250px", paddingBottom: "200px",
+                    position: "absolute", marginRight: "100px"
                 }}>
                     <img src={Gem} alt="not found" width="900px" />
                 </div>
-                <div style={{position:"absolute", marginTop: "275px", marginLeft: "550px"}}>
+                <div style={{
+                    position: "absolute", marginTop: "295px", marginLeft: "500px",
+                    marginRight: "500px", textShadow: "2px 2px 4px #000000"
+                }}>
                     <img src={DiamondLogo} alt="not found" width="500px" />
                 </div>
             </div>
