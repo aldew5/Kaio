@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import LinedMap from "../assets/map_line.png";
+import LinedMap from "../assets/map_headings.png";
 import EmptyMap from "../assets/empty_map.png";
 
 
