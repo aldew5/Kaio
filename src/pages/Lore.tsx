@@ -84,6 +84,43 @@ const Lore = () => {
                 </div>
             </div>
             <p style={{ paddingBottom: "100px" }}>
+                But the brighter they burn the faster they burn out <br />
+                and the news turned into myth.
+            </p>
+            <div className={styles.container2}>
+                <div style={{ display: "table-row", textAlign: 'left' }}>
+                    <div style={{ display: "table-cell", width: "200px", paddingLeft: "150px", paddingRight: "100px" }}>
+                        <p>
+                            Rumors began that Kaio was lying. He was old and sick and he treasured his comrades
+                            so much to not tell a single one of them about the treasure.
+                        </p>
+                        <p>
+                            People started to convince themselves that it was just a dying man’s mumbling. Or perhaps they know it
+                            was truth, but they wanted a reason to stop their fruitless chase.
+                        </p>
+                        <p>
+                            A decade after his death, the first piece of map was found, sealed in an empty whiskey bottle, buried shallowly
+                            in a coast of his hometown. It was just a single piece of paper, not nearly the size of a palm. But it was enough
+                            to rekindle the pirates’ dying fire.
+                        </p>
+                    </div>
+                    <div style={{ display: "table-cell", textAlign: "left", width: "245px", paddingRight:"150px" }}>
+                        <p>
+                            The search once again awakened the exhausted souls of the pirates. They began to sharpen their weapons and lowered
+                            the sails to venture the vastness of the ocean once more and answer to the call of their fate.
+                        </p>
+                        <p>
+                            10,000 hopeful pirates from different beginnings, chasing the same dream of finding the treasure, 
+                            ready to face the dangers of the ocean, fueled only by hope and curiosity.
+                        </p>
+                        <p>
+                            Maybe. the treasure will be found. Maybe it will be buried forever. But uncertainty is only but one part of the journey.
+                            That’s what it means to be a pirate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p style={{ paddingBottom: "100px" }}>
                 Are ye ready mate?
             </p>
             <div style={{ paddingBottom: "900px" }}>

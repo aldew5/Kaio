@@ -1,6 +1,6 @@
 import SideBar from "../components/SideBar";
 import Gem from "../assets/gem.gif";
-import DiamondLogo from "../assets/kaio_diamond.png";
+import DiamondLogo from "../assets/logo-with-shadow.png";
 import styles from "../styles/Landing.module.css";
 
 const Landing = () => {
@@ -17,10 +17,10 @@ const Landing = () => {
                     <img src={Gem} alt="not found" width="900px" />
                 </div>
                 <div style={{
-                    position: "absolute", marginTop: "295px", marginLeft: "500px",
-                    marginRight: "500px", textShadow: "2px 2px 4px #000000"
+                    position: "absolute", marginTop: "300px", marginLeft: "400px",
+                    marginRight: "400px", textShadow: "2px 2px 4px #000000"
                 }}>
-                    <img src={DiamondLogo} alt="not found" width="500px" />
+                    <img src={DiamondLogo} alt="not found" width="650px" />
                 </div>
             </div>
         </div>
