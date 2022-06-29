@@ -83,11 +83,11 @@ const Lore = () => {
                     </div>
                 </div>
             </div>
-            <p style={{ paddingBottom: "100px" }}>
-                But the brighter they burn the faster they burn out <br />
+            <p style={{ paddingBottom: "50px" }}>
+                But the brighter they burn, the faster they burn out <br />
                 and the news turned into myth.
             </p>
-            <div className={styles.container2}>
+            <div className={styles.container3}>
                 <div style={{ display: "table-row", textAlign: 'left' }}>
                     <div style={{ display: "table-cell", width: "200px", paddingLeft: "150px", paddingRight: "100px" }}>
                         <p>
@@ -121,7 +121,7 @@ const Lore = () => {
                 </div>
             </div>
             <p style={{ paddingBottom: "100px" }}>
-                Are ye ready mate?
+                Are ye ready, mate?
             </p>
             <div style={{ paddingBottom: "900px" }}>
                 <div style={{ position: "absolute" }}>

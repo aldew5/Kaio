@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import LinedMap from "../assets/map_headings.png";
+import LinedMap from "../assets/map_with_text.png";
 import EmptyMap from "../assets/empty_map.png";
 
 
@@ -27,7 +27,7 @@ const Map = () => {
                 </div>
                 <div style={{
                     gridColumn: 1, gridRow: 1,
-                    height: scrolled - 3300, maxHeight: "1100px", overflow: "hidden"
+                    height: scrolled - 3900, maxHeight: "1200px", overflow: "hidden"
                 }}>
                     <img src={LinedMap} alt={"not found"} style={{ width: "500px" }} />
                 </div>
