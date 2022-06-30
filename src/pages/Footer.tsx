@@ -4,24 +4,30 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TikTok from "../assets/tiktok-brown.png";
 import Discord from "../assets/discord-brown.png";
 import { IconButton } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className={styles.container}>
             <div style={{ display: 'table', paddingTop: '150px', paddingLeft: "200px" }}>
                 <div style={{ display: "table-row" }}>
                     <div style={{ display: "table-cell", width: "200px" }}>
-                        <div className={styles.button}>
+                        <div className={styles.button}
+                            onClick={() => { navigate("/privacy"); }}>
                             Privacy Policy
                         </div>
                     </div>
-                    <div style={{ display: "table-cell" }}>
+                    <div style={{ display: "table-cell" }}
+                        onClick={() => { navigate("/terms"); }}>
                         <div className={styles.button}>
                             Terms of Use
                         </div>
                     </div>
                     <div style={{ display: "table-cell", paddingLeft: "400px", paddingRight: "20px" }}>
-                        <IconButton sx={{color: "#837456"}}>
+                        <IconButton sx={{ color: "#837456" }}>
                             <InstagramIcon
                                 onClick={() => { window.location.href = "https://www.instagram.com/nft_kaio/"; }
                                 } />
