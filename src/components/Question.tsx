@@ -41,13 +41,15 @@ const Question = ({ question, response }: QuestionProps) => {
                 {question}
             </div>
             {(open) ?
-                <div style={{ marginTop: "1rem" }}>
-                    {response}
+                <div>
+                    <hr />
+                    <div className={styles.response}>
+                        {response}
+                    </div>
                 </div>
                 :
-                <></>
+                <><hr /></>
             }
-            <hr style={{ width: "700px", borderTop: "dashed" }} />
         </div>
     )
 }

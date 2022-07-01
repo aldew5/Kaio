@@ -1,3 +1,22 @@
 .arrow:hover {
     cursor: pointer;
 }
+
+.arrow {
+    font-size: 24px;
+    font-family: 'Morris Roman', sans-serif;
+}
+
+hr {
+    width: 700px;
+    border: dashed;
+    color: rgb(130, 99, 99);
+}
+
+.response {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-family: 'Morris Roman', sans-serif;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
