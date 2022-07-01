@@ -3,6 +3,7 @@ import Ira from "../assets/quartermaster-ira.png"
 import Yang from "../assets/cartographer-yang.png";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import styles from "../styles/Biography.module.css";
 import { IconButton } from "@mui/material";
 
 interface BiographyProps {
@@ -30,14 +31,11 @@ const Biography = ({ image, position, text, name }: BiographyProps) => {
             <img src={(image === "Vlad") ? Vlad : ((image === "Ira") ? Ira : Yang)}
                 alt="not found" style={{ height: "450px" }} />
             <div style={{marginLeft: "20px"}}>
-                <div style={{ marginTop: "1rem", fontSize: "24px" }}><b>{name}</b></div>
-                <div style={{ marginTop: "0.5rem", color: "#49351B", fontSize: "23px" }}>
-                    <b>{position}</b>
+                <div style={{ marginTop: "1rem", fontSize: "32px", color: "110D08" }}>{name}</div>
+                <div className={styles.position}>
+                    {position}
                 </div>
-                <div style={{
-                    marginTop: "0.5rem", fontSize: "20px",
-                    marginBottom: "20px", height: "90px"
-                }}>
+                <div className={styles.bio}>
                     {text}
                 </div>
                 <div style={{ display: "table", marginLeft: "-10px" }}>
@@ -48,7 +46,7 @@ const Biography = ({ image, position, text, name }: BiographyProps) => {
                             </IconButton>
                         </div>
                         <div style={{ display: "table-cell" }}>
-                            {(name === "Ira") ?
+                            {(image === "Ira") ?
                                 <IconButton>
                                     <TwitterIcon
                                         onClick={() => { window.location.href = "https://twitter.com/ginirachan"; }} />

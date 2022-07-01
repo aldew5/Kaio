@@ -12,7 +12,7 @@ const Lore = () => {
         <div style={{ color: "white", fontSize: "25px", marginTop: "110px" }}>
             <p style={{ textAlign: 'center' }}>
                 The days of the sea have proven to be lucrative for some, <br />
-                and a series of disappointments for others...
+                And a series of disappointments for others…
             </p>
             <div className={styles.container}>
                 <div style={{ display: "table-row" }}>
@@ -27,50 +27,72 @@ const Lore = () => {
 
                     <div style={{ display: "table-cell", paddingTop: "100px", paddingRight: "150px", textAlign: "left" }}>
                         <p>
-                            Years ago, towards the end of his life, a pirate captain once thought to be the world’s greatest,
-                            began implementing his legacy. He buried treasure on an island far out in the ocean, one no one has ever
-                            traveled to, treasure that would complete a seafarer’s life.
+                            The ocean does not give way to anyone. And
+                            the ships have come and gone in the waters
+                            that don’t sleep, for the churning of the sea
+                            never yield.
                         </p>
                         <p>
-                            The treasure, of course, could not be given away
-                            nor revealed in an easy manner. That is why Kaio decided to create a map, one that would lead to the treasure, and ripped
-                            it apart so one would have to piece it back together to find the location of his loot.
+                            Years ago, towards the end of his life, a
+                            pirate captain named “Kaio” known to be the
+                            world’s greatest began executing his legacy.
+                            He buried his treasure in an island far out in
+                            the ocean, one has never traveled to. It is a
+                            treasure that would complete a seafarer’s life.
                         </p>
                         <p>
-                            He spent the remaining years of his life traveling the world, scattering the pieces of the map around various ports and cities and landmarks,
-                            with not even his crewmates knowing of the location. The treasure, of course, was already buried where it would remain for many years.
+                            Kaio created a map, one that would lead to
+                            his buried treasure. But he also ripped that
+                            map apart so one would have to piece it back
+                            together. And he scattered it all around the
+                            world, piece by piece, island by island, little by
+                            little in his remaining years until all is gone.
                         </p>
                     </div>
                 </div>
             </div>
-            <div style={{ textAlign: "center", width: "700px", marginLeft: "400px" }}>
+            <div style={{ textAlign: "center", width: "700px", marginLeft: "400px", paddingBottom: "80px" }}>
                 <p>
-                    When Kaio left this world, his senior deckhand was told of the first clue,
-                    one that would lead to the first piece of the map...
+                    Except for a piece of clue…
                 </p>
             </div>
             <div className={styles.container2}>
                 <div style={{ display: "table-row", textAlign: 'left' }}>
                     <div style={{ display: "table-cell", width: "650px", paddingLeft: "200px" }}>
                         <p>
-                            The deckhand was told to tell other crewmates of other ships, but pirates can be sneaky and he thought to keep the secret to himself.
-                            If it was not for another crewmate overhearing him talking to himself about buried treasure, the deckhand might have succeeded.
+                            On his deathbed, he summoned all the people
+                            he knew, from his crewmates to his friends, to
+                            officers and common folks, of different species
+                            and races, gathered for his last days. What
+                            thought to be a farewell ceremony ended in an
+                            announcement as he said,
+
                         </p>
                         <p>
-                            As word spread, pirates from around the world began implementing their search for the pieces of the map. They scoured far and wide,
-                            yet no one had been able to find the first piece, let alone complete the map. It was not until years later, when one pirate captain ventured into a
-                            jungle temple on the southern coast of a remote island that he found the first piece, yet it turned out to be a fake.
+                            “I buried my treasure in a land faraway, and
+                            scattered the map around the world. But I tell
+                            you this, my friends and foes, If you know
+                            me well, you’ll find the pieces in all my
+                            beloved places.”
+
                         </p>
                         <p>
-                            However, from here, the journey for Kaio’s treasure truly began, and as more pirates began finding more clues to where pieces of the map were, the race to finish became more
-                            competitive than ever. Battles on the sea on the location of these clues took place frequently, and those who were not truly geared towards finding the
-                            treasure soon succumbed to the pressure and gave up. Notorious pirate captains seemed to shy away from even the reward that the treasure promised, for the
-                            road ahead was not easy. This motivated other pirates even more however, and the hunt for the treasure ramped up even more. Yet, many others continued to try,
-                            but pieces of the true map could not be found.
+                            The people cheered, the crewmates were
+                            outraged, the announcement leveled the
+                            competition. The news immediately spread
+                            throughout the entire world. And what was
+                            supposed to be a melancholic ending, ignited
+                            a yet new beginning for the era of pirates.
+
                         </p>
                         <p>
-                            As the map remains unfinished, and the alluring loot of Kaio’s treasure is still available, only pirates bold enough to venture out into waters unknown will be rewarded with
-                            what lies at the end of this adventure.
+                            As words spread, pirates from around the
+                            world started their quest in search for the
+                            pieces of the map. Some worked in groups,
+                            some preferred to be alone. It was but a
+                            series of friendships and betrayals, of hopes
+                            and disappointments that stretched for years.
+
                         </p>
                     </div>
                     <div style={{ display: "table-cell", paddingLeft: "90px" }}>
@@ -84,44 +106,64 @@ const Lore = () => {
                 </div>
             </div>
             <p style={{ paddingBottom: "50px" }}>
-                But the brighter they burn, the faster they burn out <br />
-                and the news turned into myth.
+                But the brighter they burn the faster they burn out <br />
+                And the news turned into myth
             </p>
             <div className={styles.container3}>
                 <div style={{ display: "table-row", textAlign: 'left' }}>
                     <div style={{ display: "table-cell", width: "200px", paddingLeft: "150px", paddingRight: "100px" }}>
                         <p>
-                            Rumors began that Kaio was lying. He was old and sick and he treasured his comrades
-                            so much to not tell a single one of them about the treasure.
+                            Rumors began that Kaio was lying. He was
+                            old and sick and he treasured his comrades so
+                            much to not tell a single one of them about
+                            the treasure.
+
                         </p>
                         <p>
-                            People started to convince themselves that it was just a dying man’s mumbling. Or perhaps they know it
-                            was truth, but they wanted a reason to stop their fruitless chase.
+                            People started to convince themselves that it
+                            was just a dying man’s mumbling. Or
+                            perhaps they knew it was true, but they
+                            wanted a reason to stop their fruitless chase.
                         </p>
                         <p>
-                            A decade after his death, the first piece of map was found, sealed in an empty whiskey bottle, buried shallowly
-                            in a coast of his hometown. It was just a single piece of paper, not nearly the size of a palm. But it was enough
-                            to rekindle the pirates’ dying fire.
+                            A decade after his death, the first piece of
+                            map was found, sealed in an empty whiskey
+                            bottle, buried shallowly in a coast of his
+                            hometown. It was just a single piece of paper,
+                            not nearly the size of a palm. But it was
+                            enough to rekindle the pirates’ dying fire.
+
                         </p>
                     </div>
-                    <div style={{ display: "table-cell", textAlign: "left", width: "245px", paddingRight:"150px" }}>
+                    <div style={{ display: "table-cell", textAlign: "left", width: "245px", paddingRight: "150px" }}>
                         <p>
-                            The search once again awakened the exhausted souls of the pirates. They began to sharpen their weapons and lowered
-                            the sails to venture the vastness of the ocean once more and answer to the call of their fate.
+                            The search once again awakened the
+                            exhausted souls of the pirates. They began to
+                            sharpen their weapons and lowered the sails
+                            to venture the vastness of the ocean once
+                            more and answer to the call of their fate.
+
                         </p>
                         <p>
-                            10,000 hopeful pirates from different beginnings, chasing the same dream of finding the treasure, 
-                            ready to face the dangers of the ocean, fueled only by hope and curiosity.
+                            6500 hopeful pirates from different
+                            beginnings, chasing the same dream of
+                            finding the treasure, ready to face the
+                            dangers of the ocean, fueled only by hope
+                            and curiosity.
+
                         </p>
                         <p>
-                            Maybe. the treasure will be found. Maybe it will be buried forever. But uncertainty is only but one part of the journey.
-                            That’s what it means to be a pirate.
+                            Maybe. the treasure will be found. Maybe it
+                            will be buried forever. But uncertainty is
+                            only but one part of the journey. That’s
+                            what it means to be a pirate.
+
                         </p>
                     </div>
                 </div>
             </div>
             <p style={{ paddingBottom: "100px" }}>
-                Are ye ready, mate?
+                Are you ready, mate?
             </p>
             <div style={{ paddingBottom: "900px" }}>
                 <div style={{ position: "absolute" }}>

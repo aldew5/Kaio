@@ -1,0 +1,15 @@
+.position {
+    margin-top: 0.5rem;
+    color: #49351B;
+    font-size: 24px;
+    font-family: 'Morris Roman', sans-serif;
+    padding-top: 10px;
+}
+.bio {
+    margin-top: 0.5rem;
+    font-size: 24px;
+    margin-bottom: 50px;
+    height: 90px;
+    font-family: 'Morris Roman', sans-serif;
+    color: #837456;
+}

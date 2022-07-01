@@ -10,7 +10,7 @@ const Crew = () => {
                 fontSize: "40px", color: "#89683d", paddingBottom: "80px",
                 marginLeft: "265px"
             }}>
-                <b>Our Team</b>
+                Our Team
             </div>
             <div style={{ paddingTop: "2rem", display: "flex", justifyContent: "center" }}>
                 <div style={{ display: "flex", float: "left", paddingLeft: "1.5rem" }}>
@@ -18,7 +18,7 @@ const Crew = () => {
                         text={"Does all things marketing. Focuses on increasing brand recognition and establishing collaborations with various partners. One-piece fanboy. "}
                         image={"Vlad"}
                         position={"Marketing"}
-                        name={"Vlad"}
+                        name={"Captian Vlad"}
                     />
                 </div>
                 <div style={{ display: "flex", float: "left", paddingLeft: "1.5rem" }}>
@@ -27,7 +27,7 @@ const Crew = () => {
                         space for all and values interacting with holders. Devoted Boston Celtics fan.`}
                         image={"Ira"}
                         position={"Community manager"}
-                        name={"Ira"}
+                        name={"Quatermaster Ira"}
                     />
                 </div>
                 <div style={{ display: "flex", float: "left", paddingLeft: "1.5rem" }}>
@@ -36,7 +36,7 @@ const Crew = () => {
                         Has ample experience in design and illustration achieved by working in various design jobs. Loves anime.`}
                         image={"Yang"}
                         position={"Design"}
-                        name={"Yang"}
+                        name={"Cartographer Yang"}
                     />
                 </div>
             </div>
