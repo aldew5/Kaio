@@ -2,7 +2,7 @@
     margin-top: 0.5rem;
     color: #49351B;
     font-size: 24px;
-    font-family: 'Morris Roman', sans-serif;
+    font-family: 'Morris', sans-serif;
     padding-top: 10px;
 }
 .bio {
@@ -10,6 +10,11 @@
     font-size: 24px;
     margin-bottom: 50px;
     height: 90px;
-    font-family: 'Morris Roman', sans-serif;
+    font-family: 'Morris', sans-serif;
     color: #837456;
+}
+
+@font-face {
+    font-family: "Morris";
+    src: url("../assets/fonts/MorrisRomanBlack.ttf") format("truetype");
 }
