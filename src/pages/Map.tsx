@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import LinedMap from "../assets/map_with_text.png";
+import LinedMap from "../assets/final_map.png";
 import EmptyMap from "../assets/empty_map.png";
 
 
@@ -18,7 +18,7 @@ const Map = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
+    // height scrolled - 3600
     return (
         <div>
             <div style={{ display: "grid" }}>
@@ -27,9 +27,9 @@ const Map = () => {
                 </div>
                 <div style={{
                     gridColumn: 1, gridRow: 1,
-                    height: scrolled - 3600, maxHeight: "1200px", overflow: "hidden"
+                    height: scrolled - 3600, maxHeight: "1200px", overflow: "hidden", marginTop: "10px", marginLeft: "-7px"
                 }}>
-                    <img src={LinedMap} alt={"not found"} style={{ width: "500px" }} />
+                    <img src={LinedMap} alt={"not found"} style={{ width: "520px" }} />
                 </div>
             </div>
         </div>
