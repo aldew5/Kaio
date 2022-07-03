@@ -1,5 +1,7 @@
 import './App.css';
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import CircularProgress from '@mui/material/CircularProgress';
+import { Suspense } from "react";
 import Landing from "./pages/Landing";
 import Crew from "./pages/Crew";
 import FAQ from "./pages/FAQ";
@@ -18,29 +20,31 @@ function App() {
       <div className='App'>
         <Routes>
           <Route path="/" element={
-            <div>
-              <div style={{ position: "absolute" }}>
-                <NavBar />
+            <Suspense fallback={<div>loading...</div>}>
+              <div>
+                <div style={{ position: "absolute" }}>
+                  <NavBar />
+                </div>
+                <div id="landing">
+                  <Landing />
+                </div>
+                <div id="lore">
+                  <Lore />
+                </div>
+                <div id="map">
+                  <Map />
+                </div>
+                <div id="crew">
+                  <Crew />
+                </div>
+                <div id="faq">
+                  <FAQ />
+                </div>
+                <div id="social">
+                  <Footer />
+                </div>
               </div>
-              <div id="landing">
-                <Landing />
-              </div>
-              <div id="lore">
-                <Lore />
-              </div>
-              <div id="map">
-                <Map />
-              </div>
-              <div id="crew">
-                <Crew />
-              </div>
-              <div id="faq">
-                <FAQ />
-              </div>
-              <div id="social">
-                <Footer />
-              </div>
-            </div>
+            </Suspense>
           } />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
