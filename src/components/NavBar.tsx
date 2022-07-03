@@ -67,7 +67,7 @@ const NavBar = () => {
                         onClick={() => window.location.replace("/#crew")}
                         onMouseOver={() => { setPos3(true); }}
                         onMouseLeave={() => { setPos3(false); }}>
-                        Our Teams
+                        Our Team
                     </div>
                     {(pos4) ?
                         <div style={{ position: "absolute", marginLeft: "1175px", marginTop: "5px", zIndex: 1 }}>

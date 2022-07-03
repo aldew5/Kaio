@@ -4,7 +4,7 @@ const FAQ = () => {
 
     return (
         <div style={{ paddingTop: "4rem", textAlign: "left" }}>
-            <div style={{ marginLeft: "320px", color:"white" }}>
+            <div style={{ marginLeft: "320px", color: "white" }}>
                 <div style={{ marginBottom: "2rem", fontSize: "30px" }}>
                     Frequently Asked Questions
                 </div>

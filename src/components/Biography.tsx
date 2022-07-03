@@ -30,7 +30,7 @@ const Biography = ({ image, position, text, name }: BiographyProps) => {
         <div style={{ textAlign: "left", width: "320px", paddingLeft: "100px" }}>
             <img src={(image === "Vlad") ? Vlad : ((image === "Ira") ? Ira : Yang)}
                 alt="not found" style={{ height: "450px" }} />
-            <div style={{marginLeft: "20px"}}>
+            <div style={{ marginLeft: "20px" }}>
                 <div style={{ marginTop: "1rem", fontSize: "32px", color: "110D08" }}>{name}</div>
                 <div className={styles.position}>
                     {position}

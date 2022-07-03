@@ -100,7 +100,7 @@ const Lore = () => {
                         <div style={{ position: "absolute" }}>
                             <img src={PirateRip} alt="not found" width="500px" />
                         </div>
-                        <div style={{ zIndex: "100", position: "absolute"}}>
+                        <div style={{ zIndex: "100", position: "absolute" }}>
                             <img src={Pirate} alt="not found" width="500px" />
                         </div>
                     </div>
