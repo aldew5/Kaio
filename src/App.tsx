@@ -1,7 +1,5 @@
 import './App.css';
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import CircularProgress from '@mui/material/CircularProgress';
-import { useState, useRef, useEffect } from "react";
 import Landing from "./pages/Landing";
 import Crew from "./pages/Crew";
 import FAQ from "./pages/FAQ";
@@ -14,9 +12,6 @@ import Terms from "./pages/Terms";
 
 
 function App() {
-
-  const imgEl = useRef<HTMLImageElement>(null);
-  const [loaded, setLoaded] = useState(false);
 
 
   return (
@@ -32,11 +27,7 @@ function App() {
                 <Landing />
               </div>
               <div id="lore">
-                <Lore
-                  imgEl={imgEl}
-                  setLoaded={setLoaded}
-                  loaded={loaded}
-                />
+                <Lore />
               </div>
               <div id="map">
                 <Map />

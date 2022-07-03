@@ -5,28 +5,9 @@ import Pirate from "../assets/kaio.png";
 import PirateRip from "../assets/second-rip-box-for-captain.png";
 import ThirdRip from "../assets/third-rip-box-for-group.png";
 import Group from "../assets/group.png";
-import { Dispatch, SetStateAction, useEffect } from "react";
 
 
-interface LoreProps {
-    imgEl: any;
-    setLoaded: Dispatch<SetStateAction<boolean>>;
-    loaded: boolean;
-}
-
-const Lore = ({ imgEl, setLoaded, loaded, }: LoreProps) => {
-
-    const onImageLoaded = () => setLoaded(true);
-
-    useEffect(() => {
-        const imgElCurrent = imgEl.current;
-
-        if (imgElCurrent) {
-            imgElCurrent.addEventListener('load', onImageLoaded);
-            return () => imgElCurrent.removeEventListener('load', onImageLoaded);
-        }
-    }, [imgEl]);
-
+const Lore = () => {
 
     return (
         <div style={{ color: "white", fontSize: "25px", marginTop: "110px" }}>
@@ -119,8 +100,8 @@ const Lore = ({ imgEl, setLoaded, loaded, }: LoreProps) => {
                         <div style={{ position: "absolute" }}>
                             <img src={PirateRip} alt="not found" width="500px" />
                         </div>
-                        <div style={{ zIndex: "100", position: "absolute", display: loaded ? "block" : "none" }}>
-                            <img src={Pirate} ref={imgEl} alt="not found" width="500px" />
+                        <div style={{ zIndex: "100", position: "absolute"}}>
+                            <img src={Pirate} alt="not found" width="500px" />
                         </div>
                     </div>
                 </div>
