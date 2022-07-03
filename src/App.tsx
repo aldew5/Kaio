@@ -12,8 +12,6 @@ import Terms from "./pages/Terms";
 
 
 function App() {
-
-
   return (
     <Router>
       <div className='App'>

@@ -18,7 +18,7 @@ const Map = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    // height scrolled - 3600
+   
     return (
         <div>
             <div style={{ display: "grid" }}>
