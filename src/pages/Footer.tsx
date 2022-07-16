@@ -55,9 +55,7 @@ const Footer = () => {
                         </IconButton>
                     </div>
                 </div>
-
             </div>
-
         </div>
     )
 }
